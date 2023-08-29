@@ -4,16 +4,16 @@
   font-family: "Averta Std", sans-serif;
 }
 /* ________________Hero Section: start______________________*/
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 767px) {
   .hero-section1{
     display: flex;
     justify-content: space-evenly;
-    /* flex-direction: column; */
+    flex-direction: column;
   }
 }
 .hero-section1{
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-around;
   /* background-color: black; */
 }
 .section1-imageside{
@@ -21,15 +21,13 @@
 }
 .section1-mainpic{
   display: flex;
-  height: 540px;
+  height: 530px;
   /* width: 500px; */
   padding: 0 0 3px 50px; 
   justify-content: flex-end;
-  /* align-items: center; */
-  /* margin-left: 90px; */
 }
 .section1-textside{
-  /* margin-left: 170px; */
+  margin-left: 170px;
   margin-top: 100px;
 }
 .section1-logo{
