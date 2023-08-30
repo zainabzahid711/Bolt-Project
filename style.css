@@ -5,16 +5,91 @@
 }
 /* ________________Hero Section: start______________________*/
 @media screen and (max-width: 767px) {
-  .hero-section1{
+  .hero-section1 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .section1-mainpic {
+    width: 584px;
     display: flex;
-    justify-content: space-evenly;
+    align-content: center;
+  }
+
+  .section1-textside {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .section1-logo{
+    display: none;
+  }
+  .section1-defi{
+    display: none;
+  }
+  .section1-heading{
+    color: var(--grays-grey-7, #202127);
+    text-align: center;
+    width: auto;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 110%;
+  }
+  .section1-para{
+    display: none;
+  }
+  .section1-pararesponsive{
+    display: flex;
+    text-align: center;
+  }
+  .section1-inputcontainer{
+    display: flex;
     flex-direction: column;
   }
+  .section1-input-field {
+    /* padding: 16px 32px; */
+    height: 40px;
+    /* padding: 20px 10px 2px 16px; */
+    border: 1px solid rgb(107, 104, 104);
+    margin-bottom: 10px;
+    /* display: flex; */
+    border-color: antiquewhite;
+    border-radius: 8px;
+    border: 1px solid var(--alpha-neutral-30, rgba(139, 139, 139, 0.30));
+    background: var(--grays-grey-1, #FAFBFC);
+  }
+  
+  .section1-input {
+    background: var(--grays-grey-1, #FAFBFC);
+    outline: transparent;
+    border: none;
+    display: flex;
+    padding: 0px 138px 0px 15px;
+    align-items: center;
+  }
+  
+  .section1-input-icon {
+    width: 15px;
+    margin-top: 1px;
+    margin-left: 1px;
+  }
+  .section1-btn {
+    width: 100%;
+    border-radius: 8px;
+    background: var(--grad-grad-green, linear-gradient(45deg, #03C17D 0%, #97E81C 100%));
+    padding: 6px 50px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
 }
+
+
+
 .hero-section1{
   display: flex;
   justify-content: space-around;
   /* background-color: black; */
+  /* overflow: hidden; */
 }
 .section1-imageside{
   margin: 0px;
@@ -22,16 +97,16 @@
 .section1-mainpic{
   display: flex;
   height: 530px;
-  /* width: 500px; */
-  padding: 0 0 3px 50px; 
-  justify-content: flex-end;
+  padding: 70px 0px 0px 0px;
+  justify-content: space-between;
+  margin-right: 84px;
 }
 .section1-textside{
   margin-left: 170px;
   margin-top: 100px;
 }
 .section1-logo{
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   display: flex;
   height: 30px;
   padding: 0px 0px 0px 0px;
@@ -41,28 +116,30 @@
 .section1-heading{
   color: var(--grays-grey-7, #202127);
   font-family: "Averta Std", sans-serif;  
-  font-size: 40px;
+  font-size: 54px;
   font-weight: bold;
   line-height: 110%; 
-  
+  margin-top: 30px;
 }
 .section1-para{
-  margin-top: 15px;
+  margin-top: 30px;
   color: var(--grays-grey-7, #202127);
   font-family: "Averta Std", sans-serif;
-  font-size: 15px;
+  font-size: 21px;
   font-weight: 600;
   line-height: 145%; 
   align-self: stretch;
 }
+.section1-pararesponsive{
+  display: none;
+}
 .section1-inputcontainer{
   display: flex;
-  margin-top: 15px;
+  margin-top: 45px;
 }
 .section1-input-field {
-  padding: 10px;
+  padding: 16px 32px;
   border: 1px solid rgb(107, 104, 104);
-  width: 250px;
   margin-bottom: 10px;
   display: flex;
   border-color: antiquewhite;
@@ -73,11 +150,11 @@
 
 .section1-input {
   background: var(--grays-grey-1, #FAFBFC);
-  padding-left: 10px;
-  width: 230px;
   outline: transparent;
   border: none;
-
+  display: flex;
+  padding: 0px 138px 0px 15px;
+  align-items: center;
 }
 
 .section1-input-icon {
@@ -87,9 +164,9 @@
 }
 .section1-btn {
   width: 100px;
-  background-color: #43bd2a;
-  padding: 10px 4px;
   border-radius: 8px;
+  background: var(--grad-grad-green, linear-gradient(45deg, #03C17D 0%, #97E81C 100%));
+  padding: 16px 4px;
   border: none;
   color: white;
   margin-bottom: 10px;
@@ -98,11 +175,10 @@
 .section1-spantext{
   font-family: "Averta Std", sans-serif;
   display: flex;
-  padding-top: 5px;
+  margin-top: 30px;
   align-items: center;
   color: var(--grays-grey-7, #202127);
-  font-size: 17px;
-  font-weight: 00;
+  font-size: 20px;
   line-height: 110%;
 }
 .section1-spanimg{
@@ -115,6 +191,7 @@
 }
 /* ----------------------------sections2------------------------------------ */
 .section2-main{
+  margin-top: 77px;
   border: 1px solid var(--alpha-neutral-30, rgba(139, 139, 139, 0.30));
   background: var(--grays-grey-1, #FAFBFC);
   box-shadow: 0px -1px 0px 0px rgba(142, 142, 142, 0.30) inset;
