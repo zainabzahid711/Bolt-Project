@@ -5,56 +5,56 @@
 }
 /* ________________Hero Section: start______________________*/
 @media screen and (max-width: 767px) {
-  .hero-section1 {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .section1-mainpic {
-    width: 584px;
+  .hero-section{
     display: flex;
-    align-content: center;
+    flex-direction: column;
   }
-
-  .section1-textside {
-    margin-left: 0;
-    margin-top: 40px;
-  }
-  .section1-logo{
-    display: none;
+  .setion1-imageside{
+    justify-content: flex-start;
   }
   .section1-defi{
     display: none;
   }
+  .section1-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+  }
   .section1-heading{
     color: var(--grays-grey-7, #202127);
-    text-align: center;
-    width: auto;
-    font-size: 42px;
+    font-family: "Averta Std", sans-serif;  
+    font-size: 40px;
     font-weight: 700;
-    line-height: 110%;
+    line-height: 110%; 
+    margin-top: 50px;
   }
   .section1-para{
     display: none;
   }
   .section1-pararesponsive{
-    display: flex;
-    text-align: center;
+    margin-top: 30px;
+    color: var(--grays-grey-7, #202127);
+    font-family: "Averta Std", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 145%; 
+    align-self: stretch;
   }
   .section1-inputcontainer{
     display: flex;
-    flex-direction: column;
+    flex-direction:column ;
+    margin-top: 45px;
+    margin-left: 45px;
   }
   .section1-input-field {
-    /* padding: 16px 32px; */
-    height: 40px;
-    /* padding: 20px 10px 2px 16px; */
+    padding: 16px 0px 20px 20px;
     border: 1px solid rgb(107, 104, 104);
     margin-bottom: 10px;
-    /* display: flex; */
+    display: flex;
     border-color: antiquewhite;
-    border-radius: 8px;
+    border-radius: 4px;
     border: 1px solid var(--alpha-neutral-30, rgba(139, 139, 139, 0.30));
-    background: var(--grays-grey-1, #FAFBFC);
+    /* background: var(--grays-grey-1, #FAFBFC); */
   }
   
   .section1-input {
@@ -62,34 +62,33 @@
     outline: transparent;
     border: none;
     display: flex;
-    padding: 0px 138px 0px 15px;
+    padding: 0px 25px 0px 10px;
     align-items: center;
   }
   
   .section1-input-icon {
-    width: 15px;
-    margin-top: 1px;
-    margin-left: 1px;
+    width: 20px;
+    height: 20px;
   }
   .section1-btn {
-    width: 100%;
-    border-radius: 8px;
+    border-radius: 4px;
     background: var(--grad-grad-green, linear-gradient(45deg, #03C17D 0%, #97E81C 100%));
-    padding: 6px 50px;
+    padding: 20px 20px;
     border: none;
     color: white;
     margin-bottom: 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
+
 }
 
 
 
-.hero-section1{
+/* .hero-section1{
   display: flex;
   justify-content: space-around;
-  /* background-color: black; */
-  /* overflow: hidden; */
+  background-color: black; 
+  overflow: hidden; 
 }
 .section1-imageside{
   margin: 0px;
@@ -188,7 +187,7 @@
   gap: 10px;
   margin-left: 5px;
   margin-right: 5px;
-}
+} */
 /* ----------------------------sections2------------------------------------ */
 .section2-main{
   margin-top: 77px;
