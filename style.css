@@ -5,80 +5,46 @@
 }
 /* ________________Hero Section: start______________________*/
 @media screen and (max-width: 767px) {
-  .hero-section{
+  .hero-section1{
+    background-color: #5C606B;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
-  .setion1-imageside{
-    justify-content: flex-start;
+  .section1-heading{
+    background-color: rebeccapurple;
+    color: var(--grays-grey-7, #202127);
+    text-align: center;
+
+    font-family: "Averta Std", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; 
   }
   .section1-defi{
     display: none;
-  }
-  .section1-logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-  }
-  .section1-heading{
-    color: var(--grays-grey-7, #202127);
-    font-family: "Averta Std", sans-serif;  
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 110%; 
-    margin-top: 50px;
   }
   .section1-para{
     display: none;
   }
   .section1-pararesponsive{
-    margin-top: 30px;
     color: var(--grays-grey-7, #202127);
-    font-family: "Averta Std", sans-serif;
-    font-size: 19px;
+    text-align: center;
+    font-family: Averta Std;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 600;
     line-height: 145%; 
-    /* align-self: stretch; */
   }
-  .section1-inputcontainer{
+  .section1-mainpic{
     display: flex;
-    /* flex-direction:column ; */
-    margin-top: 45px;
-    margin-left: 45px;
-  }
-  .section1-input-field {
-    padding: 16px 0px 20px 20px;
-    border: 1px solid rgb(107, 104, 104);
-    /* margin-bottom: 10px; */
-    display: flex;
-    border-color: antiquewhite;
-    border-radius: 4px;
-    border: 1px solid var(--alpha-neutral-30, rgba(139, 139, 139, 0.30));
-    /* background: var(--grays-grey-1, #FAFBFC); */
-  }
-  
-  .section1-input {
-    background: var(--grays-grey-1, #FAFBFC);
-    outline: transparent;
-    border: none;
-    display: flex;
-    padding: 0px 25px 0px 10px;
+    width: 218px;
+    height: 274px;
+    padding: 3.975px 0px 0px 11.806px;
     align-items: center;
   }
   
-  .section1-input-icon {
-    width: 20px;
-    height: 20px;
-  }
-  .section1-btn {
-    border-radius: 4px;
-    background: var(--grad-grad-green, linear-gradient(45deg, #03C17D 0%, #97E81C 100%));
-    padding: 20px 20px;
-    border: none;
-    color: white;
-    margin-bottom: 0px;
-    /* margin-left: 10px; */
-  }
+  
 
 
 }
