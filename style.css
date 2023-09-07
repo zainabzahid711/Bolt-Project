@@ -38,18 +38,18 @@
     font-size: 19px;
     font-weight: 600;
     line-height: 145%; 
-    align-self: stretch;
+    /* align-self: stretch; */
   }
   .section1-inputcontainer{
     display: flex;
-    flex-direction:column ;
+    /* flex-direction:column ; */
     margin-top: 45px;
     margin-left: 45px;
   }
   .section1-input-field {
     padding: 16px 0px 20px 20px;
     border: 1px solid rgb(107, 104, 104);
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     display: flex;
     border-color: antiquewhite;
     border-radius: 4px;
@@ -76,9 +76,10 @@
     padding: 20px 20px;
     border: none;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     /* margin-left: 10px; */
   }
+
 
 }
 
