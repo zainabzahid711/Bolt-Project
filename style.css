@@ -39,17 +39,24 @@
     font-weight: 600;
     line-height: 145%; 
   }
-  .section1-piclogo{
-    margin-bottom: 40px;
+  .section1-imageside{
+    background-color: red;
     display: flex;
+    justify-content: center;
+
+  }
+  .section1-piclogo{
+    display: flex;
+    justify-content: center;
     height: 30px;
   }
   .section1-mainpic{
     display: flex;
+    justify-content: center;
     width: 218px;
     height: 274px;
     /* padding: 3.975px 0px s0px 11.806px; */
-    align-items: center;
+    /* align-items: center; */
   }
   
   
