@@ -10,6 +10,9 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  .section1-logo{
+    display: none;
+  }
   .section1-heading{
     background-color: rebeccapurple;
     color: var(--grays-grey-7, #202127);
@@ -36,11 +39,16 @@
     font-weight: 600;
     line-height: 145%; 
   }
+  .section1-piclogo{
+    margin-bottom: 40px;
+    display: flex;
+    height: 30px;
+  }
   .section1-mainpic{
     display: flex;
     width: 218px;
     height: 274px;
-    padding: 3.975px 0px 0px 11.806px;
+    /* padding: 3.975px 0px s0px 11.806px; */
     align-items: center;
   }
   
