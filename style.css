@@ -14,15 +14,22 @@
     display: none;
   }
   .section1-heading{
-    background-color: rebeccapurple;
-    color: var(--grays-grey-7, #202127);
+    /* color: var(--grays-grey-7, #202127);
     text-align: center;
 
-    font-family: "Averta Std", sans-serif;
-    font-size: 36px;
+    font-family: Averta Std;
+    font-size: 42px;
     font-style: normal;
     font-weight: 700;
-    line-height: 110%; 
+    line-height: 110%;  */
+      color: var(--grays-grey-7, #202127);
+      text-align: center !important; 
+      font-family: Averta Std;
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 110%;
+    
   }
   .section1-defi{
     display: none;
@@ -35,12 +42,10 @@
     text-align: center;
     font-family: Averta Std;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
     line-height: 145%; 
   }
   .section1-imageside {
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -48,15 +53,14 @@
   }
   
   .section1-piclogo {
-    background-color: aqua;
+    width: 104px;
     height: 30px;
   }
   
   .section1-mainpic {
-    background-color: orange;
-    width: 118px;
-    height: 224px;
-    padding: 0px 0px 0px 11.806px;
+    width: 218px;
+    height: 274px;
+    padding: 3.90px 0px 0px 11.806px;
   }
   
   
