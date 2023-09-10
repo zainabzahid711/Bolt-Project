@@ -13,7 +13,6 @@
     display: none;
   }
   .section1-heading{
-    
     color: var(--grays-grey-7, #202127);
     display: flex;
     justify-content: center;
@@ -74,7 +73,7 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    background-color: #202127;
+    /* background-color: #202127; */
   }
   
   .section1-input-field {
@@ -85,7 +84,7 @@
     margin-bottom: 10px;
     display: flex;
     border-color: antiquewhite;
-    /* border-radius: 8px; */
+    border-radius: 4px;
     border: 1px solid var(--alpha-neutral-30, rgba(139, 139, 139, 0.30));
     background: var(--grays-grey-1, #FAFBFC);
   }
@@ -93,10 +92,9 @@
   .section1-input {
     background: var(--grays-grey-1, #FAFBFC);
     outline: transparent;
-    /* border: none; */
+    border: none;
     display: flex;
     padding: 0px 80px 0px 15px;
-    /* align-items: center; */
   }
   
   .section1-input-icon {
@@ -105,12 +103,11 @@
     margin-left: 1px;
   }
   .section1-btn {
-    /* width: 300px; */
-    /* border-radius: 8px; */
     height: 75px;
     background: var(--grad-grad-green, linear-gradient(45deg, #03C17D 0%, #97E81C 100%));
     padding: 16px 130px ;
     border: none;
+    border-radius: 4px;
     color: white;
     margin-bottom: 10px;
     /* margin-left: 20px; */
@@ -123,13 +120,15 @@
 
 }
 
+/*
 
-
-/* .hero-section1{
+ .hero-section1{
   display: flex;
   justify-content: space-around;
-  background-color: black; 
   overflow: hidden; 
+}
+.section1-piclogo{
+  display: none;
 }
 .section1-imageside{
   margin: 0px;
@@ -228,8 +227,8 @@
   gap: 10px;
   margin-left: 5px;
   margin-right: 5px;
-} */
-
+} 
+*/
 /* ----------------------------sections2------------------------------------ */
 .section2-main{
   margin-top: 77px;
