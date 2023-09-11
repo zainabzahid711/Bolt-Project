@@ -5,7 +5,6 @@
 }
 /* ________________Hero Section: start______________________*/
 /* -----------------larger screens start from 768px to larger ------------------*/
-@media screen and (min-width: 769px) {
   .sec2-responsive {
       display: none; 
   }
@@ -17,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
-    /* margin-left: 70px; */
+    margin-left: 170px;
     /* overflow: hidden ; */
   }
   .section1-imageside{
@@ -26,7 +25,7 @@
   .section1-mainpic{
     /* display: flex; */
     height: 600.723px;
-    width: 480px;
+    /* width: 480px; */
     /* justify-content: flex-end; */
     /* align-items: center; */
     /* padding: 70px 0px 0px 0px; */
@@ -142,6 +141,7 @@
     height: 90px;
   }
   .sec2-growthheading{
+    margin-top: 20px;
     color: var(--grays-grey-7, #202127);
     text-align: center;
     font-size: 21px;
@@ -150,12 +150,13 @@
     line-height: 125%;
   }
   .sec2-growthtext{
+    margin-top: 10px;
     color: var(--grays-grey-7, #202127);
     text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%;
+    line-height: 160%;
   }
   .section2-defi{
     display: flex;
@@ -167,6 +168,7 @@
     height: 90px;
   }
   .sec2-defiheading{
+    margin-top: 20px;
     color: var(--grays-grey-7, #202127);
     text-align: center;
     font-size: 21px;
@@ -174,11 +176,12 @@
     line-height: 125%; 
   }
   .sec2-defitext{
+    margin-top: 10px;
     color: var(--grays-grey-7, #202127);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 110%;
+    line-height: 160%;
   }
   .section2-security{
     display: flex;
@@ -190,6 +193,7 @@
     height: 90px;
   }
   .sec2-securityheading{
+    margin-top: 20px;
     color: var(--grays-grey-7, #202127);
     text-align: center;
     font-size: 21px;
@@ -197,27 +201,30 @@
     line-height: 125%; 
   }
   .sec2-securitytext{
+    margin-top: 10px;
     color: var(--grays-grey-7, #202127);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 160%; 
   }
   .sec2-span{
     margin-top: 60px;
     color: var(--grays-grey-5, #5C606B);
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 160%; 
   }
+  
   .sec2-span2{
     color: var(--grays-grey-5, #5C606B);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 900;
-    line-height: 120%;
+    line-height: 125%;
     margin-top: 60px;
     margin-bottom: 60px;
+
   } 
   /* ----------------------------------foooooterrrrrr-------------------------------- */
    .homepage2-footer{
@@ -250,9 +257,8 @@
     font-weight: 600;
     line-height: 150%;
   }
-}
 /* ------------for mobile screens min to max 767px */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .hero-section1{
     display: flex;
     flex-direction: column-reverse;
@@ -358,7 +364,6 @@
   .section1-spantext{
     display: none;
   }
-  /* --------------------------------------------------section2 reponsive------------- */
   .section2-main{
     display: none;
   }
@@ -473,7 +478,6 @@
   }
   .sec2responsive-spantext{
     color: var(--grays-grey-5, #5C606B);
-    /* text-align: center; */
     font-size: 14px;
     font-weight: 400;
     line-height: 160%; 
@@ -487,7 +491,6 @@
     margin-bottom: 40px;
     margin-top: 20px;
   } 
-  /* ----------------------footerr------------------------------ */
   .homepage2-footer{
     border-top: 1px solid  #90939E;
     background: var(--grays-grey-1, #FAFBFC);
@@ -523,5 +526,5 @@
     font-weight: 600;
     line-height: 150%;
   }
-}
+} */
 
