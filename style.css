@@ -13,12 +13,12 @@
   margin-top: 30px;
   margin-left: 170px;
 }
-.sec1-mainimg-logo{
+.sec1-mainimg-logo, .sec1-pararespons, .sec1-spanrespons{
   display: none;
 }
-.sec1-left-text{
+/* .sec1-left-text{
   width: 800px;
-}
+} */
 .sec1-textside{
   margin-top: 40px;
 }
@@ -40,10 +40,7 @@
   font-weight: 600;
   line-height: 145%; 
 }
-.sec1-right-img{
-  margin-right: 0px;
-  
-}
+
 .sec1-main-img{
   width: 600px;
  
@@ -128,19 +125,19 @@
     width: 80px;
   }
 }
-@media (min-width: 500px) and (max-width: 767px){
+@media (min-width: 500px) and (max-width: 768px){
   .sec1-main-img{
-    width: 350px;
+    width: 250px;
   }
   .sec1-headings h1{
     font-size: 35px;
   }
   .sec1-paragraph{
-    font-size: 10px;
+    font-size: 15px;
   }
   
   .sec1-input{
-    padding: 0px 20px 0px 5px;
+    padding: 0px 10px 0px 5px;
   }
   .sec1-spantext{
     font-size: 15px;
@@ -151,6 +148,88 @@
   } 
   .section1-spanimg{
     width: 80px;
+  }
+}
+@media (max-width: 500px){
+  
+  .sec1-boltlogo, .sec1-limitdefi, .sec1-paragraph, .sec1-spantext{
+    display: none;
+  }
+  .sec1-mainimg-logo, .sec1-pararespons, .sec1-spanrespons{
+    display: block;
+  }
+  .sec1-mainimg-logo{
+    display: flex;
+    justify-content: center;
+    width: 104px;
+    height: 30px;
+  }
+  .section-1{
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    margin-left: 10px;
+  }
+  
+  .sec1-main-img{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+
+  }
+  .sec1-right-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .sec1-headings h1{
+    text-align: center;
+    font-size: 35px;
+  }
+  .sec1-pararespons{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #202127;
+  }
+  .sec1-spanrespons{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+  }
+  .sec1-inputcontainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sec1-input-field {
+    padding: 25px 10px 25px 16px;
+    display: flex;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .sec1-input {
+    border: none;
+    display: flex;
+    padding: 0px 20px 0px 15px;
+  }
+  
+  .sec1-input-icon {
+    width: 15px;
+    margin-top: 1px;
+    margin-left: 1px;
+  }
+  .sec1-btn {
+    align-items: center;
+    width: 100%;
+    padding: 16px 90px ;
+    border-radius: 4px;
+    margin-top: 16px;
   }
 }
 
