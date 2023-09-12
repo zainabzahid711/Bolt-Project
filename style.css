@@ -4,6 +4,7 @@
   font-family: "Averta Std",sans-serif;
 
 }
+
 /* -------------------------------------section-1--------------------------- */
 .section-1{
   display: flex;
@@ -11,7 +12,6 @@
   align-items: center;
   margin-top: 30px;
   margin-left: 170px;
-  /* overflow: hidden; */
 }
 .sec1-mainimg-logo{
   display: none;
@@ -26,7 +26,6 @@
   height: 30px;
 }
 .sec1-headings h1{
-  /* margin-top: 20px; */
   color:  #202127;
   font-size: 54px;
   font-style: normal;
@@ -43,14 +42,11 @@
 }
 .sec1-right-img{
   margin-right: 0px;
-  /* background-color: black; */
-  /* margin-bottom: 100px; */
+  
 }
 .sec1-main-img{
   width: 600px;
-  height: 590px;
-  /* justify-content: flex-end; */
-  /* align-items: center; */
+ 
 }
 .sec1-inputcontainer{
   display: flex;
@@ -68,7 +64,7 @@
   background: #FAFBFC;
   border: none;
   display: flex;
-  padding: 0px 138px 0px 5px;
+  padding: 0px 120px 0px 5px;
   color: #90939E;
   font-size: 16px;
   font-weight: 600;
@@ -101,3 +97,63 @@
   margin-left: 10px;
   margin-right: 35px;
 } 
+@media (min-width: 992px) and (max-width: 1200px){
+  .sec1-main-img{
+    width: 500px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .sec1-main-img{
+    width: 400px;
+  }
+  .sec1-headings h1{
+    font-size: 45px;
+  }
+  .sec1-paragraph{
+    font-size: 15px;
+  }
+  
+  .sec1-input{
+    padding: 0px 20px 0px 5px;
+  }
+  .sec1-spantext{
+    font-size: 15px;
+  }
+  .sec1-spanpic{
+    margin-left: 5px;
+    margin-right: 20px;
+  } 
+  .section1-spanimg{
+    width: 80px;
+  }
+}
+@media (min-width: 500px) and (max-width: 767px){
+  .sec1-main-img{
+    width: 350px;
+  }
+  .sec1-headings h1{
+    font-size: 35px;
+  }
+  .sec1-paragraph{
+    font-size: 10px;
+  }
+  
+  .sec1-input{
+    padding: 0px 20px 0px 5px;
+  }
+  .sec1-spantext{
+    font-size: 15px;
+  }
+  .sec1-spanpic{
+    margin-left: 5px;
+    margin-right: 20px;
+  } 
+  .section1-spanimg{
+    width: 80px;
+  }
+}
+
+
+
+
