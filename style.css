@@ -2,13 +2,14 @@
   margin: 0px;
   padding: 0px;
   font-family: "Averta Std",sans-serif;
+  margin-right: 0px;
 
 }
 
-/* -------------------------------------section-1--------------------------- */
+ /* -------------------------------------section-1---------------------------  */
 .section-1{
   display: flex;
-  justify-content: center ;
+  justify-content: space-between;
   align-items: center;
   margin-top: 30px;
   margin-left: 170px;
@@ -47,7 +48,7 @@
   margin-top: 40px;
 }
 .sec1-inputfield{
-  padding: 16px 20px;
+  padding: 16px 15px;
   display: flex;
   border-color: antiquewhite;
   border-radius: 8px;
@@ -62,16 +63,17 @@
   font-size: 16px;
   font-weight: 600;
 }
-
+.sec1-input:focus{
+  outline: none;
+}
 .sec1-input-icon {
   width: 18px;
   height: 18px;
 }
 .sec1-btn {
-  width: 100%;
+  width: 120px;
   border-radius: 8px;
   background: linear-gradient(45deg, #03C17D 0%, #97E81C 100%);
-  padding: 16px 20px;
   border: none;
   color: white;
   margin-left: 10px;
@@ -90,11 +92,19 @@
   margin-left: 10px;
   margin-right: 35px;
 } 
+
+/* --------------------------______section1____responsive___------------------------*/
+
 @media (min-width: 992px) and (max-width: 1200px){
   .sec1-main-img{
     width: 500px;
   }
-
+  .sec1-inputfield{
+    padding: 18px 5px 18px 10px;
+  }
+  .sec1-btn{
+    width: 100px;
+  }
 }
 @media (min-width: 500px) and (max-width: 992px){
   .sec1-main-img{
@@ -106,12 +116,15 @@
   .sec1-paragraph{
     font-size: 15px;
   }
-  
-  .sec1-input{
-    padding: 0px 20px 0px 5px;
+  .sec1-inputfield{
+    padding: 15px 0px 15px 5px;
+  }
+  .sec1-input {
+    padding: 0px 60px 0px 9px;
   }
   .sec1-btn{
-    padding: 16px 10px;
+    width: 80px
+
   }
   .sec1-spantext{
     font-size: 15px;
@@ -148,7 +161,8 @@
   .section1-spanimg{
     width: 80px;
   }
-} */
+} 
+*/
 @media (max-width: 500px){
   
   .sec1-boltlogo, .sec1-limitdefi, .sec1-paragraph, .sec1-spantext{
@@ -159,11 +173,11 @@
   }
   .section-1{
     margin: 0px;
-    /* background-color: red; */
-    display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    align-items: center;
+  }
+  .sec1-left-text{
+    padding: 0px 30px 0px 30px;
   }
   .sec1-mainimg-logo{
     width: 104px;
@@ -184,7 +198,7 @@
   }
   .sec1-headings h1{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
   }
   .sec1-pararespons{
     text-align: center;
@@ -202,22 +216,137 @@
     display: flex;
     gap: 16px;
   }
+  .sec1-inputfield{
+    padding: 15px 0px 15px 9px;
+  }
   .sec1-input{
-    width: 100px;
-    /* max-width: 100%; */
+    padding: 0px 50px 0px 9px;
     margin: 0px;
     display: flex;
     align-items: center;
   }
   .sec1-btn{
-    width: 310px;
-    max-width: 100%;
+    width: 100%;
+    padding: 15px;
     margin: 0px;
     align-items: center;
   }
   
 }
+/* -------------------------------------------------section2--------------------*/
+.section2-main{
+  background-color: chocolate;
+  margin-right: 0px;
+  margin-top: 35px;
+  border: 1px solid rgba(139, 139, 139, 0.30);
+  /* background:  #FAFBFC; */
+  box-shadow: 0px -1px 0px 0px rgba(142, 142, 142, 0.30) inset; 
+}
+.sec2-creations{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sec2-growth{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2-growthimg{
+  width: 90px;
+  height: 90px;
+}
+.sec2-growthheading{
+  margin-top: 20px;
+  color: #202127;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 125%;
+}
+.sec2-growthtext{
+  margin-top: 10px;
+  color: #202127;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.sec2-defi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2-defiimg{
+  width: 90px;
+  height: 90px;
+}
+.sec2-defiheading{
+  margin-top: 20px;
+  color: #202127;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 125%; 
+}
+.sec2-defitext{
+  margin-top: 10px;
+  color: #202127;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.sec2-security{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2-securityimg{
+  width: 90px;
+  height: 90px;
+}
+.sec2-securityheading{
+  margin-top: 20px;
+  color: #202127;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 125%; 
+}
+.sec2-securitytext{
+  margin-top: 10px;
+  color: #202127;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%; 
+}
+.sec2-span{
+  margin-top: 60px;
+  color: #5C606B;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%; 
+}
 
+.sec2-span2{
+  color: #5C606B;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 125%;
+  margin-top: 60px;
+  margin-bottom: 60px;
 
+} 
+/* -------------------------______sec2-responsive________________ 
+@media (min-width: 992px) and (max-width: 1200px){
+  .section2-main{
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0px;
+  }
 
-
+} */
