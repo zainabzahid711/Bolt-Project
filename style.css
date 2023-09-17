@@ -12,7 +12,8 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-  margin-left: 170px;
+  margin-left: 120px;
+  
 }
 .sec1-mainimg-logo, .sec1-pararespons, .sec1-spanrespons{
   display: none;
@@ -25,7 +26,7 @@
 }
 .sec1-headings h1{
   color:  #202127;
-  font-size: 54px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 110%;
@@ -33,15 +34,16 @@
 .sec1-paragraph{
   margin-top: 20px;
   color:#202127;
-  font-size: 21px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 145%; 
 }
 
 .sec1-main-img{
-  width: 600px;
- 
+  width: 500px;
+  margin-left: 58px;
+  margin-right: 128px;
 }
 .sec1-inputcontainer{
   display: flex;
@@ -58,7 +60,7 @@
 .sec1-input {
   background: #FAFBFC;
   border: none;
-  padding: 0px 120px 0px 5px;
+  padding: 0px 100px 0px 5px;
   color: #90939E;
   font-size: 16px;
   font-weight: 600;
@@ -83,7 +85,7 @@
   margin-top: 20px;
   align-items: center;
   color:  #202127;
-  font-size: 20px;
+  font-size: 18px;
 }
 .sec1-spanpic{
   width: 65px;
@@ -97,7 +99,9 @@
 
 @media (min-width: 992px) and (max-width: 1200px){
   .sec1-main-img{
-    width: 500px;
+    width: 400px;
+    margin-right: 40px;
+    margin-left: 40px;
   }
   .sec1-inputfield{
     padding: 18px 5px 18px 10px;
@@ -106,9 +110,10 @@
     width: 100px;
   }
 }
-@media (min-width: 500px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 992px){
   .sec1-main-img{
-    width: 350px;
+    width: 250px;
+    margin-right: 40px;
   }
   .sec1-headings h1{
     font-size: 40px;
@@ -135,6 +140,38 @@
   } 
   .section1-spanimg{
     width: 80px;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px){
+  .sec1-main-img{
+    width: 250px;
+    margin-right: 40px;
+    margin-left: 60px;
+  }
+  .sec1-headings h1{
+    font-size: 40px;
+  }
+  .sec1-paragraph{
+    font-size: 15px;
+  }
+  .sec1-inputfield{
+    padding: 13px 0px 13px 5px;
+  }
+  .sec1-input {
+    padding: 0px 55px 0px 9px;
+  }
+  .sec1-btn{
+    width: 75px
+  }
+  .sec1-spantext{
+    font-size: 13px;
+  }
+  .sec1-spanpic{
+    margin-left: 3px;
+    margin-right: 8px;
+  } 
+  .section1-spanimg{
+    width: 70px;
   }
 }
 @media (max-width: 500px){
@@ -166,9 +203,7 @@
 
   }
   .sec1-main-img{
-    justify-content: center;
-    width: 302px;
-    height: 300px;
+    width: 250px;
   }
   .sec1-headings h1{
     text-align: center;
@@ -191,7 +226,7 @@
     gap: 16px;
   }
   .sec1-inputfield{
-    padding: 15px 0px 15px 9px;
+    padding: 25px 0px 25px 9px;
   }
   .sec1-input{
     padding: 0px 50px 0px 9px;
@@ -201,7 +236,7 @@
   }
   .sec1-btn{
     width: 100%;
-    padding: 15px;
+    padding: 25px 0px 25px 0px;
     margin: 0px;
     align-items: center;
   }
@@ -214,13 +249,17 @@
 .section2-main{
   margin-right: 0px;
   margin-top: 35px;
+  background-color: #FAFBFC;
   border: 1px solid rgba(139, 139, 139, 0.30);
+  border-right: none;
   box-shadow: 0px -1px 0px 0px rgba(142, 142, 142, 0.30) inset; 
 }
 .sec2-creations{
   margin-top: 80px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 .sec2-growth{
   display: flex;
@@ -321,6 +360,63 @@
   .section2-main{
     width: 100%;
   }
+  
+.sec2-creations{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+/* .sec2-growth{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* .sec2-growthimg{
+  width: 90px;
+  height: 90px;
+} */
+.sec2-growthheading{
+  text-align: center;
+}
+.sec2-growthtext{
+  font-size: 18px;
+}
+/* .sec2-defi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* .sec2-defiimg{
+  width: 90px;
+  height: 90px;
+} */
+.sec2-defiheading{
+  font-size: 21px;
+}
+.sec2-defitext{
+  font-size: 18px;
+}
+/* .sec2-security{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* .sec2-securityimg{
+  width: 90px;
+  height: 90px;
+} */
+.sec2-securityheading{
+  font-size: 21px;
+}
+.sec2-securitytext{
+  font-size: 18px;
+}
+.sec2-span{
+  font-size: 18px;
+}
+
+.sec2-span2{
+  font-size: 18px;
+} 
 }
 @media (min-width: 768px) and (max-width: 992px){
   .sec2-creations{
@@ -383,11 +479,13 @@
   }
   .sec2-span{
     font-size: 10px;
+    margin-top: 40px;
   }
   
   .sec2-span2{
     font-size: 10px;
-  
+    margin-top: 40px;
+    margin-bottom: 40px;
   } 
 }
 @media (max-width: 500px){
@@ -396,6 +494,7 @@
   }
   .sec2-responsive{
     display: block;
+    background-color: #FAFBFC;
   }
   .sec2responsive-creations{
     margin-top: 80px;
@@ -508,7 +607,7 @@
 /* -----------------------------_____________footer_________------------------------- */
 .homepage2-footer{
   background: #FAFBFc;
-  padding: 10px 10px;
+  padding: 30px 30px;
 }
 .footer-content{
   display: flex;
@@ -581,4 +680,66 @@
     font-weight: 600;
     line-height: 150%;
   }
+}
+/*-------------------- ____________LOGIN PAGE___________ ------------------*/
+.login-sec1-text{
+  margin-top: 100px;
+  margin-left: 220px;
+}
+.login-bolt-logo{
+  margin-bottom: 80px;
+}
+.login-heading{
+  margin-bottom: 20px;
+}
+.login-paragraph{
+  margin-bottom: 20px;
+}
+.login-label{
+  font-size: 13px;
+  color: #41434A;
+}
+.login-inputcontainer{
+  margin-top: 20px;
+}
+.login-inputfield{
+  border: 1px solid #CFCFE1;
+  width: 28%;
+  display: flex;
+  padding: 10px 0px 10px 18px;
+  border-radius: 8px;
+  /* margin-right: 20px; */
+}
+.login-formselect{
+  color: #90939E;
+  font-size: 15px;
+  appearance: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  border: none; 
+  background: transparent;
+}
+.login-forms {
+  margin-top: 8px;
+  /* background-color: #214a74; */
+}
+.login-formselect:focus{
+  outline: none;
+}
+.login-phone-icon {
+  width: 45px;
+  height: 45px;
+}
+.login-btn {
+  margin-top: 20px;
+  width: 30%;
+  padding: 22px 32px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #03C17D 0%, #97E81C 100%);
+  border: none;
+  color: white;
+}
+.login-spantext{
+  color: #5C606B;
+  font-size: 16px;
 }
