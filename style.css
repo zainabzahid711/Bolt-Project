@@ -766,24 +766,35 @@
   }
 }
 /*-------------------- ____________LOGIN PAGE___________ ------------------*/
+*{
+  margin: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
 .login-sec1-text{
   margin-top: 100px;
-  margin-left: 220px;
+  margin-left: 120px;
 }
 .login-bolt-logo{
+  width: 90px;
+  /* height: 32px; */
   margin-bottom: 80px;
 }
 .login-heading{
-  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
 }
 .login-paragraph{
   margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
 }
 .login-label{
   font-size: 13px;
   color: #41434A;
 }
 .login-inputcontainer{
+  width: 100%;
   margin-top: 20px;
 }
 .login-inputfield{
@@ -792,7 +803,6 @@
   display: flex;
   padding: 10px 0px 10px 18px;
   border-radius: 8px;
-  /* margin-right: 20px; */
 }
 .login-formselect{
   color: #90939E;
@@ -805,7 +815,6 @@
 }
 .login-forms {
   margin-top: 8px;
-  /* background-color: #214a74; */
 }
 .login-formselect:focus{
   outline: none;
@@ -813,6 +822,11 @@
 .login-phone-icon {
   width: 45px;
   height: 45px;
+}
+.login-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .login-btn {
   margin-top: 20px;
@@ -823,7 +837,135 @@
   border: none;
   color: white;
 }
-.login-spantext{
+.login-btnlink{
   color: #5C606B;
   font-size: 16px;
+  margin-top: 20px;
+  /* text-align: center; */
+  margin-left: 120px;
+}
+.login-sec2-image{
+  margin-left: 20px;
+}
+/* -------------footer------------- */
+.login-footer{
+  border-top: 1px solid #c8cad3;
+  background: #FAFBFc;
+  padding: 30px 30px;
+}
+.login-ftr-content{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+  /* margin-right: 90px; */
+}
+.login-ftr-spanservice{
+  margin-left: 5px;
+  text-decoration-line: underline;
+}
+.login-ftr-service{
+  color:  #90939E;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.login-ftr-icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.login-ftr-span{
+  color: #90939E;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+}
+/* -----------------------____________responsive____________------------------------ */
+@media (min-width: 992px) and (max-width: 1200px){
+  .login-sec2-image{
+    margin-left: 90px;
+  }
+  .login-ftr-content{
+    /* margin-left: 30px;
+    margin-right: 0px; */
+  }
+  .login-ftr-service{
+    font-size: 14px;
+  }
+  .login-ftr-span{
+    font-size: 14px;
+  }
+  .login-ftr-icon{
+    width: 18px;
+    height: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .login-ftr-content{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .login-ftr-service{
+    font-size: 12px;
+  }
+  .login-ftr-span{
+    font-size: 12px;
+  }
+  .login-ftr-icon{
+    width: 18px;
+    height: 18px;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px){
+  
+  .login-ftr-content{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .login-ftr-service{
+    font-size: 10px;
+  }
+  .login-ftr-span{
+    font-size: 12px;
+  }
+  .login-ftr-icon{
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 500px){
+  .login--footer{
+    border-top: 1px solid  #90939E;
+    background:  #FAFBFC;
+    padding: 10px 10px;
+  }
+  .login-ftr-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px 30px 30px ;
+  }
+  .login-ftr-spanservice{
+    margin-left: 5px;
+    text-decoration-line: underline;
+  }
+  .login-ftr-service{
+    margin-bottom: 30px;
+    color: #90939E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+  }
+  .login-ftr-icon{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+  }
+  .login-ftr-span{
+    color:  #90939E;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+  }
 }
