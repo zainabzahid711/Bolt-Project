@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+@mixin commoncode( $fnts , $fntwght ){
+  font-size: $fnts;
+  font-weight: $fntwght;
+  color: #202127;
+  font-style: normal;
+}
+.login-sec1-text{
+  margin-left: 13rem ;
+  margin-top: 6.25rem;
+  .login-bolt-logo{
+    margin-bottom: 3rem;
+    height: 2rem;
+  }
+  .login-heading{
+    @include commoncode(1.475rem, 700);
+  }
+  .login-paragraph{
+    margin-top: 1.12rem;
+    @include commoncode(1.125rem, 400);
+  }
+  .login-inputcontainer{
+    width: 100%;
+    margin-top: 1.25;
+    .login-inputfield{
+      width: 35%;
+      padding: 1.25rem 1rem .1rem 1.12rem;
+      margin-top: 2.5rem;
+      display: flex;
+      border: .0625rem solid black;
+      border-radius: .75rem;
+      .login-phone-icon{
+        width: 2.812rem;
+        height: 2.182rem;
+      }
+      .login-formsNmbr{
+        border: none;
+        .login-label{
+          font-size: .812rem;
+          color: #41434A;
+        }
+        .login-dropdown{
+          display: flex;
+          border: none;
+          .login-forms{
+            margin-top: .5rem;
+            .login-formselect{
+              color: #90939E;
+              font-size: .937rem;
+              appearance: none; 
+              -webkit-appearance: none; 
+              -moz-appearance: none; 
+              border: none; 
+              background: transparent;
+            }
+            .login-formselect:focus{
+              outline: none;
+            }
+          }
+         
+        }
+        
+        
+      }
+      
+    }
+    .login-button{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .login-btn {
+      margin-top: 1.25rem;//20px
+      width: 30%;
+      padding: 1.37rem 2.0rem;
+      border-radius: 0.5rem;
+      background: linear-gradient(45deg, #03C17D 0%, #97E81C 100%);
+      border: none;
+      color: white;
+    }
+    .login-btnlink{
+      color: #5C606B;
+      font-size: 1rem;
+      margin-top: 1.25rem;
+      /* text-align: center; */
+      margin-left: 7.5rem;
+    }
+  }  
+}
