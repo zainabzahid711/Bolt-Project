@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Bolt Login </title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="icon" href="images/svgs/favicon.svg">
 </head>
 <body>
@@ -25,26 +25,29 @@
             <img class="login-phone-icon" src="images/svgs/phone input Icon.svg" alt="phoneNumber Input icon">
         <div class="login-formsNmbr">
             <label class="login-label" for="number"> Phone Number </label>
-          <form class="login-forms">
-            <select class="login-formselect" name="Number" id="No">
-              <option value="US(+1)"> US(+1) 000-000-0000 </option>
-              <option value="Pakistan"> Pak(+92) 000-000-0000 </option>
-              <option value="India"> india(+91) 000-000-0000 </option>
-              <option value="Uk"> Uk(+44) 000-000-0000  </option>
-              <option value="germany"> Germany(+49) 000-000-0000 </option>
-              <option value="thailand"> Thailand(+66) 000-000-0000 </option>
-            </select>
-          </form>
+              <div class="login-dropdown">
+                <form class="login-forms">
+                  <select class="login-formselect" name="Number" id="No">
+                    <option value="US(+1)"> US(+1)  </option>
+                    <option value="Pakistan"> Pak(+92) </option>
+                    <option value="India"> ind(+91) </option>
+                    <option value="Uk"> Uk(+44)  </option>
+                    <option value="germany"> Ger(+49) </option>
+                    <option value="thailand"> Thai(+66)  </option>
+                  </select>
+                </form>
+                <input class="login-dropinput" type="number" placeholder="000-0000-0000">
+              </div>
         </div>
       </div>
       <div class="login-button">
         <button class="login-btn"> Login </button>
-        <a class="login-btnlink" href="#" > Create account </a>
       </div>
+      <a class="login-btnlink" href="#" > Create account </a>
     </div>
   </div>
   <div class="login-sec2-image">
-    <img class="login-elipse-img" src="images/pngs/Art.png" alt="elipse image sec2">
+    <img class="login-elipse-img" src="images/pngs/login-logo.png" alt="elipse image sec2">
   </div>
   <!-- ---------footer----------- -->
   <div class="login-footer">
