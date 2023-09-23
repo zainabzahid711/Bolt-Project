@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-sec1-text {
+  margin-left: 13rem;
+  margin-top: 6.25rem;
+}
+.login-sec1-text .login-bolt-logo {
+  margin-bottom: 3rem;
+  height: 2rem;
+}
+.login-sec1-text .login-heading {
+  font-size: 1.475rem;
+  font-weight: 700;
+  color: #202127;
+  font-style: normal;
+}
+.login-sec1-text .login-paragraph {
+  margin-top: 1.12rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #202127;
+  font-style: normal;
+}
+.login-sec1-text .login-inputcontainer {
+  width: 100%;
+  margin-top: 1.25;
+}
+.login-sec1-text .login-inputcontainer .login-inputfield {
+  width: 35%;
+  padding: 1.25rem 1rem 0.1rem 1.12rem;
+  margin-top: 2.5rem;
+  display: flex;
+  border: 0.0625rem solid black;
+  border-radius: 0.75rem;
+}
+.login-sec1-text .login-inputcontainer .login-inputfield .login-phone-icon {
+  width: 2.812rem;
+  height: 2.182rem;
+}
+.login-sec1-text .login-inputcontainer .login-inputfield .login-formsNmbr {
+  border: none;
+}
+.login-sec1-text .login-inputcontainer .login-inputfield .login-formsNmbr .login-label {
+  font-size: 0.812rem;
+  color: #41434A;
+}
+.login-sec1-text .login-inputcontainer .login-inputfield .login-formsNmbr .login-dropdown {
+  display: flex;
+  border: none;
+}
+.login-sec1-text .login-inputcontainer .login-inputfield .login-formsNmbr .login-dropdown .login-forms {
+  margin-top: 0.5rem;
+}
+.login-sec1-text .login-inputcontainer .login-inputfield .login-formsNmbr .login-dropdown .login-forms .login-formselect {
+  color: #90939E;
+  font-size: 0.937rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: transparent;
+}
+.login-sec1-text .login-inputcontainer .login-inputfield .login-formsNmbr .login-dropdown .login-forms .login-formselect:focus {
+  outline: none;
+}
+.login-sec1-text .login-inputcontainer .login-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-sec1-text .login-inputcontainer .login-btn {
+  margin-top: 1.25rem;
+  width: 30%;
+  padding: 1.37rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(45deg, #03C17D 0%, #97E81C 100%);
+  border: none;
+  color: white;
+}
+.login-sec1-text .login-inputcontainer .login-btnlink {
+  color: #5C606B;
+  font-size: 1rem;
+  margin-top: 1.25rem;
+  /* text-align: center; */
+  margin-left: 7.5rem;
+}/*# sourceMappingURL=main.css.map */
