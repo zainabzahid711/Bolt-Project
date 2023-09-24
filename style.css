@@ -778,7 +778,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #FFFFFF33;
+  background-color: #F1f2f2;
 }
 .login-sec1-text{
   margin-top: 6.25rem; 
@@ -807,7 +807,7 @@
     display: flex;
     border: .0625rem solid #CFCFE1;
     border-radius: .5rem;
-    background-color: #fff;
+    background-color: #F1f2f2;
   }
     .login-phone-icon{
       width: 2.8125rem;
@@ -888,7 +888,7 @@
 /* -------------footer------------- */
 .login-footer{
   border-top: 0.062rem solid #c8cad3;
-  background: #FAFBFc;
+  background-color: #F1f2f2;
   padding: 1.87rem 1.87rem;
 }
 .login-ftr-content{
