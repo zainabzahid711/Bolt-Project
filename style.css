@@ -6,6 +6,7 @@
 
 }
 
+
  /* ---------------------------------____________section-1______________---------------------------  */
 .section-1{
   display: flex;
@@ -103,7 +104,6 @@
 .section2-main{
   clear: both;
   margin-right: 0px;
-  background-color: #FAFBFC;
   border: 1px solid rgba(139, 139, 139, 0.30);
   border-right: none;
   box-shadow: 0px -1px 0px 0px rgba(142, 142, 142, 0.30) inset; 
@@ -211,7 +211,6 @@
 } 
 /* -----------------------------_____________footer_________------------------------- */
 .homepage2-footer{
-  background: #FAFBFc;
   padding: 30px 30px;
 }
 .footer-content{
@@ -772,7 +771,7 @@
 
 
 /*-------------------- ____________LOGIN PAGE___________ ------------------*/
-*{
+.LOGIN-PAGE{
   margin: 0px;
   margin-right: 0px;
   padding: 0px;
@@ -781,7 +780,6 @@
   background-color: #F1f2f2;
 }
 .login-sec1-text{
-  margin-top: 6.25rem; 
   margin-left: 13.75rem;
 }
 .login-heading{
@@ -792,6 +790,7 @@
   font-size: 1.125rem;
 }
 .login-bolt-logo{
+  margin-top: 6.25rem; 
   width: 5.825rem;
   height: 2rem;
   margin-bottom: 5rem; 
@@ -800,14 +799,15 @@
   margin-top: 1.25;
   margin-bottom: 1.25rem;
 }
+
   .login-inputfield{
-    width: 30%;
-    padding: 1.05rem 1.25rem 1.05rem 1.125rem;
+    width: 28%;
+    padding: 1.05rem 0rem 1.05rem 1.125rem;
     margin-top: 2.5rem;
     display: flex;
     border: .0625rem solid #CFCFE1;
     border-radius: .5rem;
-    background-color: #F1f2f2;
+  background-color: #ffff;
   }
     .login-phone-icon{
       width: 2.8125rem;
@@ -869,7 +869,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 29.7%;
   margin-bottom: 2rem;
 }
 .login-btnlink{
@@ -939,7 +939,7 @@
     height: 2rem;
   }
   .login-inputfield{
-    width: 25rem;
+    width: 23rem;
     padding: 1.2rem .9rem 1.2rem 1.12rem;
   }
   .login-dropinput{
@@ -982,7 +982,7 @@
     height: 2rem;
   }
   .login-inputfield{
-    width: 21rem;
+    width: 19rem;
     padding: 1.0rem .9rem 1.0rem 1.12rem;
   }
   .login-dropinput{
@@ -1035,7 +1035,7 @@
     height: 2rem;
   }
   .login-inputfield{
-    width: 20rem;
+    width: 18rem;
     padding: .92rem .9rem .9rem 1.12rem;
   }
   .login-formselect{
@@ -1098,7 +1098,7 @@
       align-items: center;
     }
     .login-inputfield{
-      width: 21rem;
+      width: 20rem;
       border-radius: 8px;
       padding: 1.1rem 0rem 1.1rem 1.12rem;
     }
