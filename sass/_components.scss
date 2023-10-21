@@ -1,0 +1,148 @@
+
+// /////////////////////NAVBAR///////////////////////////////
+
+
+.nav-bar{
+  padding: 1rem 0rem 1.2rem 0rem;
+  width: 100%;
+  background-color: var(--primary-color);
+  border-bottom: 1px solid var(--light-grey-color);
+
+  &-bolt-logo{
+    height: 30px;
+  }
+  &-content{
+    display: flex;
+    justify-content: center;
+  }
+  &-right-text{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 12rem;
+
+    &-h{
+      font-size: 1rem;
+      margin-right: 2rem;
+
+      // @include media-breakpoint-down(lg) { 
+      //   font-size: .7rem;
+      // }
+
+      // @include media-breakpoint-down(sm) { 
+      //   font-size: .6rem;
+      // }
+
+
+    }
+    &-moon-icon{
+      margin-top: 1.5rem;
+      width: 1%;
+      height: 1%;
+    }
+  }
+}
+
+
+
+.section-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 120px;
+  margin-left: 120px;
+
+
+
+  
+&-left-text{
+  margin-top: 30px;
+
+
+  &-pararespons, &-spanrespons{
+    display: none;
+  }
+   &-textside{
+    margin-top: 40px;
+  }
+  &-headings h1{
+    color:  #202127;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+  }
+  &-paragraph{
+    margin-top: 20px;
+    color:#202127;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145%; 
+  }
+  
+  &-inputcontainer{
+    display: flex;
+    margin-top: 40px;
+  }
+  &-inputfield{
+    padding: 16px 15px;
+    display: flex;
+    border-color: antiquewhite;
+    border-radius: 8px;
+    background-color:  #FAFBFC;
+    border: 1px solid rgba(139, 139, 139, 0.30);
+  }
+  &-input {
+    background: #FAFBFC;
+    border: none;
+    padding: 0px 100px 0px 5px;
+    color: #90939E;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  &-input:focus{
+    outline: none;
+  }
+  &-email-logo{
+    width: 18px;
+    height: 18px;
+  }
+  &-btn {
+    width: 120px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #03C17D 0%, #97E81C 100%);
+    border: none;
+    color: white;
+    margin-left: 10px;
+  }
+  &-span{
+    margin-top: 20px;
+  &-span-text{
+    display: flex;
+    align-items: center;
+    color:  #202127;
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  &-spanpic{
+    width: 65px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 35px;
+  } 
+ }
+  
+}
+
+
+&-right{
+  &-logo{
+    display: none;
+  }
+  &-img{
+    width: 25rem;
+  }
+}
+
+}

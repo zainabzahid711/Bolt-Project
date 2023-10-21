@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+//x-sm=500px
+//X-Small	None	<576px
+//Small	sm	≥576px
+//Medium	md	≥768px
+//Large	lg	≥992px
+//Extra large	xl	≥1200px
+//Extra extra large	xxl	≥1400px
+
+@mixin media-breakpoint-down-lg{
+  @media (max-width: 992px) {
+    @content
+  };
+}
+
+
+
+@mixin media-breakpoint-down-sm{
+  @media (max-width: 576px) {
+    @content
+  };
+}
+
+
+
+
+
+@mixin media-breakpoint-down($breakpoint){
+  @if $breakpoint == lg{
+     @media (max-width: 992px) {
+      @content
+    };
+
+  }
+}
+
+
+@mixin media-breakpoint-down($breakpoint){
+  @if $breakpoint == sm{
+     @media (max-width: 576px) {
+      @content
+    };
+
+  }
+}
