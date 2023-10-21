@@ -1,0 +1,28 @@
+{
+  "name": "bolt",
+  "version": "1.0.0",
+  "description": "landing page for bolt project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css",
+    "watch:sass": "npm run compile:sass && watch 'npm run compile:sass' src/scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bolt"
+  },
+  "keywords": [
+    "bolt",
+    "page"
+  ],
+  "author": "zainab",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}

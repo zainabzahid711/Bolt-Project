@@ -1,0 +1,1389 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Averta Std", sans-serif;
+  margin-right: 0px;
+
+}
+
+
+/* ---------------------------------____________section-1______________---------------------------  */
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.sec1-left-text {
+  margin-top: 30px;
+}
+
+.sec1-mainimg-logo,
+.sec1-pararespons,
+.sec1-spanrespons {
+  display: none;
+}
+
+.sec1-textside {
+  margin-top: 40px;
+}
+
+.sec1-boltlogo {
+  height: 30px;
+}
+
+.sec1-headings h1 {
+  color: #202127;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.sec1-paragraph {
+  margin-top: 20px;
+  color: #202127;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+}
+
+.sec1-main-img {
+  width: 400px;
+}
+
+.sec1-inputcontainer {
+  display: flex;
+  margin-top: 40px;
+}
+
+.sec1-inputfield {
+  padding: 16px 15px;
+  display: flex;
+  border-color: antiquewhite;
+  border-radius: 8px;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(139, 139, 139, 0.30);
+}
+
+.sec1-input {
+  background: #FAFBFC;
+  border: none;
+  padding: 0px 100px 0px 5px;
+  color: #90939E;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sec1-input:focus {
+  outline: none;
+}
+
+.sec1-email-logo {
+  width: 18px;
+  height: 18px;
+}
+
+.sec1-btn {
+  width: 120px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #03C17D 0%, #97E81C 100%);
+  border: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.sec1-spantext {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  color: #202127;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.sec1-spanpic {
+  width: 65px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+/* --------------------------------_______________section2______________--------------------*/
+.sec2-responsive {
+  display: none;
+}
+
+.section2-main {
+  clear: both;
+  margin-right: 0px;
+  border: 1px solid rgba(139, 139, 139, 0.30);
+  border-right: none;
+  box-shadow: 0px -1px 0px 0px rgba(142, 142, 142, 0.30) inset;
+}
+
+.sec2-creations {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.sec2-growth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec2-growthimg {
+  width: 90px;
+  height: 90px;
+}
+
+.sec2-growthheading {
+  margin-top: 20px;
+  color: #202127;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.sec2-growthtext {
+  margin-top: 10px;
+  color: #202127;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.sec2-defi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec2-defiimg {
+  width: 90px;
+  height: 90px;
+}
+
+.sec2-defiheading {
+  margin-top: 20px;
+  color: #202127;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.sec2-defitext {
+  margin-top: 10px;
+  color: #202127;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.sec2-security {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec2-securityimg {
+  width: 90px;
+  height: 90px;
+}
+
+.sec2-securityheading {
+  margin-top: 20px;
+  color: #202127;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.sec2-securitytext {
+  margin-top: 10px;
+  color: #202127;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.sec2-span {
+  margin-top: 60px;
+  color: #5C606B;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.sec2-span2 {
+  color: #5C606B;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 125%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+/* -----------------------------_____________footer_________------------------------- */
+.homepage2-footer {
+  padding: 30px 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.footer-spanservice {
+  margin-left: 5px;
+  text-decoration-line: underline;
+}
+
+.footer-service {
+  color: #90939E;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.footer-span {
+  color: #90939E;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+/* ------------------------________________responsive________________ --------------*/
+
+/* ------------------------__________section1____responsive___________------------------------*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sec1-main-img {
+    width: 350px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .sec1-headings h1 {
+    font-size: 40px;
+  }
+
+  .sec1-paragraph {
+    font-size: 15px;
+  }
+
+  .sec1-inputfield {
+    padding: 18px 5px 18px 10px;
+  }
+
+  .sec1-input {
+    padding: 0px 60px 0px 9px;
+  }
+
+  .sec1-btn {
+    width: 90px;
+  }
+
+  .sec1-spantext {
+    font-size: 18px;
+  }
+
+  .sec1-spanpic {
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .section1-spanimg {
+    width: 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .section-1 {
+    margin-left: 90px;
+  }
+
+  .sec1-main-img {
+    width: 260px;
+    margin-right: 40px;
+    margin-left: 32px;
+  }
+
+  .sec1-headings h1 {
+    font-size: 30px;
+  }
+
+  .sec1-paragraph {
+    font-size: 12px;
+  }
+
+  .sec1-inputfield {
+    padding: 15px 0px 15px 5px;
+  }
+
+  .sec1-input {
+    padding: 0px 20px 0px 9px;
+  }
+
+  .sec1-btn {
+    width: 70px
+  }
+
+  .sec1-spantext {
+    font-size: 13px;
+  }
+
+  .sec1-spanpic {
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .section1-spanimg {
+    width: 80px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .section-1 {
+    margin-left: 50px;
+  }
+
+  .sec1-main-img {
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 150px;
+  }
+
+  .sec1-boltlogo {
+    width: 60px;
+  }
+
+  .sec1-headings h1 {
+    font-size: 25px;
+  }
+
+  .sec1-paragraph {
+    font-size: 10px;
+  }
+
+  .sec1-inputfield {
+    padding: 13px 0px 13px 6px;
+  }
+
+  .sec1-input {
+    padding: 0px 9px 0px 9px;
+    font-size: 12px;
+  }
+
+  .sec1-btn {
+    width: 60px
+  }
+
+  .sec1-spantext {
+    font-size: 10px;
+  }
+
+  .sec1-spanpic {
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+
+  .section1-spanimg {
+    width: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .sec1-boltlogo,
+  .sec1-limitdefi,
+  .sec1-paragraph,
+  .sec1-spantext {
+    display: none;
+  }
+
+  .sec1-mainimg-logo,
+  .sec1-pararespons,
+  .sec1-spanrespons {
+    display: block;
+  }
+
+  .section-1 {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .sec1-left-text {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .sec1-mainimg-logo {
+    width: 104px;
+    height: 60px;
+  }
+
+  .sec1-right-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .sec1-main-img {
+    width: 250px;
+  }
+
+  .sec1-headings h1 {
+    text-align: center;
+    font-size: 34px;
+    line-height: 120%;
+  }
+
+  .sec1-pararespons {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #202127;
+    font-weight: 600;
+  }
+
+  .sec1-spanrespons {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .sec1-inputcontainer {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+  }
+
+  .sec1-email-logo {
+    margin-right: 2px;
+  }
+
+  .sec1-inputfield {
+    padding: 25px 15px 25px 15px;
+  }
+
+  .sec1-input {
+    padding: 0px 70px 0px 10px;
+    margin: 0px;
+    display: flex;
+    font-size: 13px;
+  }
+
+  .sec1-btn {
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+    margin: 0px;
+    align-items: center;
+  }
+
+}
+
+/* -------------------------__________sec2-responsive__________---------------------------- */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .sec2-growthimg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sec2-growthheading {
+    font-size: 18px;
+  }
+
+  .sec2-growthtext {
+    font-size: 13px;
+  }
+
+  .sec2-defi {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+
+  .sec2-defiimg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sec2-defiheading {
+    font-size: 18px;
+  }
+
+  .sec2-defitext {
+    font-size: 13px;
+  }
+
+  .sec2-securityimg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sec2-securityheading {
+    font-size: 18px;
+  }
+
+  .sec2-securitytext {
+    font-size: 13px;
+  }
+
+  .sec2-span {
+    font-size: 15px;
+  }
+
+  .sec2-span2 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .sec2-creations {
+    margin-left: 90px;
+  }
+
+  .sec2-growthimg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sec2-growthheading {
+    font-size: 18px;
+  }
+
+  .sec2-growthtext {
+    font-size: 10px;
+  }
+
+  .sec2-defiimg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sec2-defiheading {
+    font-size: 18px;
+  }
+
+  .sec2-defitext {
+    font-size: 10px;
+  }
+
+  .sec2-securityheading {
+    font-size: 18px;
+  }
+
+  .sec2-securitytext {
+    font-size: 10px;
+  }
+
+  .sec2-securityimg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .sec2-span {
+    font-size: 12px;
+  }
+
+  .sec2-span2 {
+    font-size: 12px;
+
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .sec2-creations {
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 90px;
+  }
+
+  .sec2-growthimg {
+    width: 65px;
+    height: 65px;
+  }
+
+  .sec2-growthheading {
+    font-size: 18px;
+  }
+
+  .sec2-growthtext {
+    font-size: 10px;
+  }
+
+  .sec2-defiimg {
+    width: 65px;
+    height: 65px;
+  }
+
+  .sec2-defiheading {
+    font-size: 18px;
+  }
+
+  .sec2-defitext {
+    font-size: 10px;
+  }
+
+  .sec2-securityimg {
+    width: 65px;
+    height: 65px;
+  }
+
+  .sec2-securityheading {
+    font-size: 18px;
+  }
+
+  .sec2-securitytext {
+    font-size: 10px;
+  }
+
+  .sec2-span {
+    font-size: 12px;
+    margin-top: 40px;
+  }
+
+  .sec2-span2 {
+    font-size: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section2-main {
+    display: none;
+  }
+
+  .sec2-responsive {
+    display: block;
+    background-color: #FAFBFC;
+  }
+
+  .sec2responsive-creations {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec2responsive-privacy {
+    border-top: 1px solid rgba(139, 139, 139, 0.30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec2responsive-privacyimg {
+    margin-top: 25px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .sec2responsive-privacyheading {
+    color: #202127;
+    text-align: center;
+    font-size: 21px;
+    line-height: 125%;
+    margin-top: 10px;
+  }
+
+  .sec2responsive-privacytext {
+    color: #202127;
+    text-align: center;
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: 10px;
+
+  }
+
+  .sec2responsive-security {
+    margin-top: 25px;
+    border-top: 1px solid rgba(139, 139, 139, 0.30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec2responsive-securityimg {
+    margin-top: 25px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .sec2responsive-securityheading {
+    color: #202127;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 125%;
+    margin-top: 10px;
+
+  }
+
+  .sec2responsive-securitytext {
+    color: #202127;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 110%;
+    margin-top: 10px;
+  }
+
+  .sec2responsive-speed {
+    margin-top: 25px;
+    border-top: 1px solid rgba(139, 139, 139, 0.30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sec2responsive-speedimg {
+    margin-top: 25px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .sec2responsive-speedheading {
+    color: #202127;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 125%;
+    margin-top: 10px;
+  }
+
+  .sec2responsive-speedtext {
+    color: #202127;
+    text-align: center;
+    font-size: 14px;
+    line-height: 125%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+
+  }
+
+  .sec2responsive-spansec {
+    border-top: 1px solid rgba(139, 139, 139, 0.30);
+    text-align: center;
+  }
+
+  .sec2responsive-span1 {
+    margin-top: 25px;
+    color: #5C606B;
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .sec2responsive-span2 {
+    color: #5C606B;
+    font-size: 15px;
+    font-weight: 900;
+    padding-bottom: 40px;
+    margin-top: 20px;
+  }
+}
+
+/* -----------------------________-footer _______responsive____________------------------------ */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-content {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .footer-service {
+    font-size: 14px;
+  }
+
+  .footer-span {
+    font-size: 14px;
+  }
+
+  .footer-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer-content {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .footer-service {
+    font-size: 12px;
+  }
+
+  .footer-span {
+    font-size: 12px;
+  }
+
+  .footer-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+
+  /* .homepage2-footer{
+    background-color: #2d12a5;
+  } */
+  .footer-content {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .footer-service {
+    font-size: 10px;
+  }
+
+  .footer-span {
+    font-size: 12px;
+  }
+
+  .footer-icon {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .homepage2-footer {
+    border-top: 1px solid #90939E;
+    background: #FAFBFC;
+    padding: 10px 10px;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px 30px 30px;
+  }
+
+  .footer-spanservice {
+    margin-left: 5px;
+    text-decoration-line: underline;
+  }
+
+  .footer-service {
+    margin-bottom: 30px;
+    color: #90939E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .footer-span {
+    color: #90939E;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+  }
+}
+
+
+
+
+
+
+/*-------------------- ____________LOGIN PAGE___________ ------------------*/
+.LOGIN-PAGE {
+  margin: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F1f2f2;
+}
+
+.login-sec1-text {
+  margin-left: 13.75rem;
+}
+
+.login-heading {
+  font-size: 1.475rem;
+  margin-bottom: 2rem;
+}
+
+.login-paragraph {
+  font-size: 1.125rem;
+}
+
+.login-bolt-logo {
+  margin-top: 6.25rem;
+  width: 5.825rem;
+  height: 2rem;
+  margin-bottom: 5rem;
+}
+
+.login-inputcontainer {
+  margin-top: 1.25;
+  margin-bottom: 1.25rem;
+}
+
+.login-inputfield {
+  width: 28%;
+  padding: 1.05rem 0rem 1.05rem 1.125rem;
+  margin-top: 2.5rem;
+  display: flex;
+  border: .0625rem solid #CFCFE1;
+  border-radius: .5rem;
+  background-color: #ffff;
+}
+
+.login-phone-icon {
+  width: 2.8125rem;
+  height: 2.8125rem;
+}
+
+.login-formsNmbr {
+  border: none;
+  width: 35%;
+}
+
+.login-label {
+  font-size: .8125rem;
+  color: #41434A;
+}
+
+.login-dropdown {
+  margin-top: .5rem;
+  display: flex;
+  border: none;
+}
+
+.login-formselect {
+  color: #90939E;
+  font-size: 1.15rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: transparent;
+}
+
+.login-formselect:focus {
+  outline: none;
+}
+
+.login-dropinput {
+  max-width: 140%;
+  color: #90939E;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.login-dropinput:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.login-btn {
+  background: linear-gradient(45deg, #03C17D 0%, #97E81C 100%);
+  padding: 1.57rem 2rem 1.57rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  margin-top: 1.25rem;
+  /*20px*/
+  width: 100%;
+}
+
+.login-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 29.7%;
+  margin-bottom: 2rem;
+}
+
+.login-btnlink {
+  margin-top: 1rem;
+  color: #5C606B;
+  font-size: 1rem;
+}
+
+/*      ----------------____________section2___________ ----------------- */
+.login-sec2-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-elipse-img {
+  width: 34.4375rem;
+}
+
+/* -------------footer------------- */
+.login-footer {
+  border-top: 0.062rem solid #c8cad3;
+  background-color: #F1f2f2;
+  padding: 1.87rem 1.87rem;
+}
+
+.login-ftr-content {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6.625rem;
+  margin-right: 6.635rem;
+}
+
+.login-ftr-spanservice {
+  margin-left: 1.312rem;
+  text-decoration-line: underline;
+}
+
+.login-ftr-service {
+  color: #90939E;
+  font-size: 1.075rem;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.login-ftr-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.login-ftr-span {
+  color: #90939E;
+  font-size: 1.075rem;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+/*--------------------________responsive__________-----------------*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  .login-sec1-text {
+    margin-left: 8rem;
+  }
+
+  .login-elipse-img {
+    width: 30rem;
+  }
+
+  .login-heading {
+    font-size: 1.3rem;
+  }
+
+  .login-paragraph {
+    font-size: 1.1rem;
+  }
+
+  .login-label {
+    font-size: .7rem;
+  }
+
+  .login-bolt-logo {
+    width: 5.825rem;
+    height: 2rem;
+  }
+
+  .login-inputfield {
+    width: 23rem;
+    padding: 1.2rem .9rem 1.2rem 1.12rem;
+  }
+
+  .login-dropinput {
+    max-width: 140%;
+  }
+
+  .login-button {
+    width: 25rem;
+  }
+
+  .login-btn {
+    margin-top: 1.25rem;
+    /*20px*/
+    width: 25rem;
+    padding: 1.9rem .9rem 1.9rem 1.12rem;
+  }
+
+  .login-btnlink {
+    font-size: 1.0rem;
+  }
+
+  .login-ftr-content {
+    margin-left: 4.625rem;
+    margin-right: 4.625rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .login-sec1-text {
+    margin-left: 7rem;
+  }
+
+  .login-elipse-img {
+    width: 28rem;
+  }
+
+  .login-heading {
+    font-size: 1.2rem;
+  }
+
+  .login-paragraph {
+    font-size: 1.0rem;
+  }
+
+  .login-label {
+    font-size: .7rem;
+  }
+
+  .login-bolt-logo {
+    width: 5.825rem;
+    height: 2rem;
+  }
+
+  .login-inputfield {
+    width: 19rem;
+    padding: 1.0rem .9rem 1.0rem 1.12rem;
+  }
+
+  .login-dropinput {
+    max-width: 150%;
+  }
+
+  .login-button {
+    width: 21rem;
+  }
+
+  .login-btn {
+    margin-top: 1.25rem;
+    /*20px*/
+    width: 21rem;
+    padding: 1.9rem .9rem 1.9rem 1.12rem;
+  }
+
+  .login-btnlink {
+    font-size: 1.0rem;
+  }
+
+  .login-ftr-content {
+    margin-left: 4.625rem;
+    margin-right: 4.625rem;
+  }
+
+  .login-ftr-service {
+    font-size: .9rem;
+  }
+
+  .login-ftr-span {
+    font-size: .9rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .login-sec1-text {
+    margin-left: 5rem;
+  }
+
+  .login-elipse-img {
+    width: 21rem;
+  }
+
+  .login-heading {
+    font-size: 1.0rem;
+  }
+
+  .login-paragraph {
+    font-size: .90rem;
+  }
+
+  .login-phone-icon {
+    width: 2.8125rem;
+    height: 2.8125rem;
+  }
+
+  .login-label {
+    font-size: .5rem;
+  }
+
+  .login-bolt-logo {
+    width: 5.825rem;
+    height: 2rem;
+  }
+
+  .login-inputfield {
+    width: 18rem;
+    padding: .92rem .9rem .9rem 1.12rem;
+  }
+
+  .login-formselect {
+    font-size: .8rem;
+  }
+
+  .login-dropinput {
+    max-width: 125%;
+    font-size: .8rem;
+  }
+
+  .login-button {
+    width: 20rem;
+  }
+
+  .login-btn {
+    margin-top: 1.25rem;
+    /*20px*/
+    width: 20rem;
+    padding: 1.9rem .9rem 1.9rem 1.12rem;
+  }
+
+  .login-btnlink {
+    font-size: 1.0rem;
+  }
+
+  .login-ftr-content {
+    margin-left: 4.625rem;
+    margin-right: 4.625rem;
+  }
+
+  .login-ftr-service {
+    font-size: .7rem;
+  }
+
+  .login-ftr-span {
+    font-size: .7rem;
+  }
+
+  .login-ftr-icon {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .login-sec1-text {
+    margin-left: 1rem;
+  }
+
+  .login-upr-part {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-bolt-logo {
+    width: 10rem;
+  }
+
+  .login-heading {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .login-paragraph {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .login-inputcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-inputfield {
+    width: 20rem;
+    border-radius: 8px;
+    padding: 1.1rem 0rem 1.1rem 1.12rem;
+  }
+
+  .login-btn {
+    margin-top: 1.25rem;
+    /*20px*/
+    width: 21rem;
+  }
+
+  .login-btnlink {
+    font-size: .8rem;
+  }
+
+  .login-sec2-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .login-elipse-img {
+    margin-top: 8rem;
+    width: 25rem;
+  }
+
+  .login-footer {
+    border-top: 1px solid #90939E;
+    background: #FAFBFC;
+    padding: 10px 10px;
+  }
+
+  .login-ftr-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px 30px 30px;
+  }
+
+  .login-ftr-spanservice {
+    margin-left: 5px;
+    text-decoration-line: underline;
+  }
+
+  .login-ftr-service {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  .login-ftr-icon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .login-ftr-span {
+    font-size: 14px;
+  }
+}
