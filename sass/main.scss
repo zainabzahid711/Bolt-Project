@@ -1,10 +1,6 @@
-
-
-
-@import "variables";
-@import "components";
-@import "base";
+@import "utilities/variables";
+@import "components/heroSection";
+@import "utilities/base";
 
 // Bootstrap source files
 @import 'node_modules/bootstrap/scss/bootstrap';
-
