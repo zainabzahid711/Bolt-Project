@@ -1,17 +1,21 @@
- 
-
-:root{
-  --primary-color: #ffff;  
-
-
-
-  --light-grey-color: #f8f9fa;
+ :root {
+   --primary-color: #ffff;
+   --primary-color-light: #CFD2DC;
+   --primary-color-light-2: #F1F2F2;
+   --light-grey-color: #f8f9fa;
 
 
 
 
-  // breakpoint variables
-  // $sm: 576px;
-  // $md: 576px;
-  // $lg: 992px;
-}
+
+
+   // breakpoint variables
+   // $sm: 576px;
+   // $md: 576px;
+   // $lg: 992px;
+ }
+
+ $green-color-light: #9FFFB4;
+ $green-color-dark: #66FA63;
+ $dark-color: #030819;
+ $dark-color-2: #050e2b;
