@@ -1,7 +1,7 @@
 .cloud-storage-sec {
   position: relative;
   background-image: url(../images/home/Art.png);
-  height: 120vh;
+  height: 150vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -10,35 +10,17 @@
   // linear-gradient(to right bottom, rgba($dark-color, .7), rgba($dark-color-2, .7),
 
 
-  &-h {
-    color: var(--primary-color);
-
-    &-resp {
-      display: none;
-    }
+  &-hresp {
+    display: none;
   }
 
 
-  &-p {
-    color: var(--primary-color-light);
 
-    &-resp {
-      display: none;
-    }
-  }
-
-  &-textbox {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  &-presp {
+    display: none;
   }
 }
 
-.custom-font-size {
-  font-size: 2.5rem;
-}
 
 .cloud-storage-step {
   position: relative;
@@ -48,23 +30,35 @@
   height: 70vh;
 
 
+  &-textarea {
+    display: none;
+  }
 
 
 
   &-steps {
     position: absolute;
+    width: 60rem;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     top: 15rem;
-    text-align: center;
     display: flex;
 
     &-1 {
       display: flex;
       flex-direction: column;
       text-align: center;
-      margin-right: 4rem;
+
+
+      &>* {
+        margin-right: 4rem;
+
+        &::after {
+          content: "";
+          display: block;
+        }
+      }
 
       &-img {
         height: 3.15rem;
@@ -76,13 +70,6 @@
         font-size: 1.15rem;
         font-weight: 700;
         color: var(--primary-color-light-2);
-      }
-
-      &-headings {
-        font-size: .9rem;
-        font-weight: 700;
-        color: var(--primary-color-light-2);
-
       }
 
       &-p {
