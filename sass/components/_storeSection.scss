@@ -7,5 +7,20 @@
   &-privatekeys {
     padding-top: 20rem;
     margin-left: 13.625rem;
+
+    &-1 {
+
+      &-frames {
+        display: flex;
+
+        &-dimond {
+          flex-direction: column;
+
+          &-1text {
+            color: var(--primary-color);
+          }
+        }
+      }
+    }
   }
 }
