@@ -1,0 +1,42 @@
+.primary-icon1 {
+
+  @media (max-width: 768px) {
+    width: 20%;
+  }
+}
+
+.primary-text {
+  font-size: .7rem;
+}
+
+.ft-small {
+  font-size: .7rem;
+}
+
+
+.margintop {
+  margin-top: .7rem;
+}
+
+.img-fluid-2 {
+  width: 5rem;
+}
+
+.custom-font-size {
+  font-size: 2.5rem;
+
+  @media (max-width: 992px) {
+    font-size: 1.5rem;
+
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
+
+  }
+}
