@@ -5,7 +5,7 @@
 
 
   &-privatekeys {
-    padding-top: 25rem;
+    padding-top: 20rem;
     margin-left: 8.625rem;
     padding-bottom: 10rem;
 
@@ -32,7 +32,10 @@
           flex-direction: column;
           gap: .75rem;
           color: var(--primary-color-light);
-          font-size: .7rem;
+
+          &-innermost {
+            text-align: center;
+          }
 
         }
 
@@ -41,22 +44,28 @@
           justify-content: center;
           align-items: center;
           color: var(--primary-color-light);
-          font-size: .7rem;
 
           &-plusicon {
             width: 15px;
           }
         }
       }
-    }
 
-    &-sending {
-      margin-left: 7.625rem;
-    }
+      &-chain {
+        display: flex;
+        flex-direction: column;
 
-    &-down span {
-      margin-left: 3rem;
-      color: var(--primary-color-light);
+
+        &-sending {
+          margin-left: 6.625rem;
+        }
+
+        &-down span {
+          margin-left: 2.625rem;
+          color: var(--primary-color-light);
+        }
+      }
+
     }
   }
 }
