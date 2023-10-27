@@ -124,14 +124,6 @@
       color: var(--primary-color-light);
       font-size: .6rem;
     }
-
-    &-textbox {
-      position: absolute;
-      top: 40%;
-      bottom: -15%;
-      left: 40%;
-      transform: translate(-40%, -40%);
-    }
   }
 
   .custom-font-size {
@@ -190,4 +182,44 @@
 
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// security section//////////////////////////////
+.secure-store-sec-privatekeys {
+  @media (max-width: 1200px) {
+    margin-left: 5.5rem;
+  }
+
+  @media (max-width: 992px) {
+    margin-left: 2.5rem;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 3rem;
+  }
+}
+
+.secure-store-sec-privatekeys-1-chain-sending {
+  @media (max-width: 1200px) {
+    margin-left: 5.4rem;
+  }
+
+  @media (max-width: 992px) {
+    margin-left: 4.4rem;
+  }
 }
