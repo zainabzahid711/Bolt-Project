@@ -1,26 +1,62 @@
 .secure-store-sec {
   background-color: $dark-color;
   position: relative;
-  height: 100vh;
+  height: auto;
 
 
   &-privatekeys {
-    padding-top: 20rem;
-    margin-left: 13.625rem;
+    padding-top: 25rem;
+    margin-left: 8.625rem;
+    padding-bottom: 10rem;
 
     &-1 {
 
       &-frames {
         display: flex;
+        margin-top: 1rem;
+        gap: 2rem;
 
         &-dimond {
+          display: flex;
           flex-direction: column;
+          justify-content: center;
 
           &-1text {
             color: var(--primary-color);
+            text-align: center;
+          }
+        }
+
+        &-innertext {
+          display: flex;
+          flex-direction: column;
+          gap: .75rem;
+          color: var(--primary-color-light);
+          font-size: .7rem;
+
+        }
+
+        &-end-text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--primary-color-light);
+          font-size: .7rem;
+
+          &-plusicon {
+            width: 15px;
           }
         }
       }
+    }
+
+    &-sending {
+      margin-left: 7.625rem;
+    }
+
+    &-down span {
+      margin-left: 3rem;
+      color: var(--primary-color-light);
     }
   }
 }
