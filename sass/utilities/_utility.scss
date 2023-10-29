@@ -7,6 +7,7 @@
 
 .primary-text {
   font-size: .7rem;
+  text-align: center;
 }
 
 .ft-small {
@@ -18,8 +19,47 @@
   margin-top: .7rem;
 }
 
+.diamond-icon {
+  @media (max-width: 500px) {
+    width: 1.87rem;
+  }
+}
+
 .img-fluid-2 {
   width: 5rem;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
+//service section
+.img-fluid-3 {
+  @media (max-width: 1200px) {
+    width: 15rem;
+  }
+
+  @media (max-width: 992px) {
+    width: 12rem;
+  }
+
+  @media (max-width: 768px) {
+    width: 7.2rem;
+  }
+
+  @media (max-width: 500px) {
+    width: 15rem;
+  }
+}
+
+.img-fluid-respons {
+  display: none;
+
+
+  @media (max-width: 500px) {
+    display: block;
+    width: .8rem;
+  }
 }
 
 .custom-font-size {
