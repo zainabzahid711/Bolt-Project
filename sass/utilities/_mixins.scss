@@ -1,0 +1,193 @@
+@media (max-width: 1200px) {
+  .cloud-storage-sec {
+    height: 90vh;
+  }
+
+  .custom-font-size {
+    font-size: 1.8rem;
+  }
+
+  .cloud-storage-sec-p {
+    font-size: .7rem;
+  }
+
+
+
+
+
+  .cloud-storage-step-steps-1-heading {
+    font-size: .9rem;
+  }
+
+  .cloud-storage-step-steps-1-headings {
+    font-size: .6rem;
+  }
+
+  .cloud-storage-step-steps-1-p {
+    font-size: .6rem;
+  }
+
+  .cloud-storage-step-steps {
+    width: 45rem;
+    left: 53%;
+  }
+}
+
+@media (max-width: 992px) {
+  .cloud-storage-sec {
+    height: 80vh;
+  }
+
+  .custom-font-size {
+    font-size: 1.4rem;
+  }
+
+  .cloud-storage-sec-p {
+    font-size: .7rem;
+  }
+
+  .cloud-storage-step-steps-1-heading {
+    font-size: .7rem;
+  }
+
+  .cloud-storage-step-steps-1-headings {
+    font-size: .7rem;
+  }
+
+  .cloud-storage-step-steps-1-p {
+    font-size: .6rem;
+  }
+
+  .cloud-storage-step-steps {
+    width: 42rem;
+    left: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cloud-storage-sec {
+    height: 70vh;
+  }
+
+  .custom-font-size {
+    font-size: 1rem;
+  }
+
+  .cloud-storage-sec-p {
+    font-size: .5rem;
+  }
+
+
+  .cloud-storage-step {
+    height: 70vh;
+  }
+
+  .cloud-storage-step-steps-1-heading {
+    font-size: .6rem;
+  }
+
+  .cloud-storage-step-steps-1-headings {
+    font-size: .6rem;
+  }
+
+  .cloud-storage-step-steps-1-p {
+    font-size: .5rem;
+  }
+
+  .cloud-storage-step-steps {
+    width: 29rem;
+    left: 55%;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .primary-heading {
+    display: none;
+  }
+
+  .primary-para {
+    display: none;
+  }
+
+  .cloud-storage-sec {
+    height: 40vh;
+
+    &-hresp {
+      display: block;
+      color: var(--primary-color);
+    }
+
+    &-presp {
+      display: block;
+      color: var(--primary-color-light);
+      font-size: .6rem;
+    }
+
+    &-textbox {
+      position: absolute;
+      top: 40%;
+      bottom: -15%;
+      left: 40%;
+      transform: translate(-40%, -40%);
+    }
+  }
+
+  .custom-font-size {
+    font-size: .9rem;
+  }
+
+
+  .cloud-storage-step {
+    height: 100vh;
+  }
+
+  .cloud-storage-step-textarea {
+    padding-top: 3.125rem;
+    display: block;
+    text-align: center;
+    padding-bottom: .9rem;
+    border-bottom: 1px solid var(--border-color);
+
+  }
+
+  .cloud-storage-step-textarea-p {
+    font-size: .9rem;
+    color: var(--primary-color-light-2);
+  }
+
+  .cloud-storage-step-textarea-h {
+    font-size: 1.3rem;
+    color: var(--primary-color-light-2);
+  }
+
+  .cloud-storage-step-steps {
+    top: 25rem;
+    flex-direction: column;
+    text-align: center;
+    left: 55%;
+    max-width: 90%;
+  }
+
+  .cloud-storage-step-steps-1 {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+
+  .cloud-storage-step-steps-1-heading {
+    display: none;
+  }
+
+  .cloud-storage-step-steps-1-headings {
+    font-size: 1rem;
+  }
+
+  .cloud-storage-step-steps-1-p {
+    font-size: .9rem;
+  }
+
+
+
+}
