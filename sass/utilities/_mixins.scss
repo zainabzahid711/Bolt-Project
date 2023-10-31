@@ -40,6 +40,23 @@
       }
     }
   }
+
+  .documentation-sec {
+    &-services {
+      max-width: 100%;
+      gap: 2rem;
+
+      &-1 {
+        width: 18rem;
+      }
+    }
+
+    &-quest {
+      padding-top: 4rem;
+      padding-left: 5rem;
+    }
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -85,7 +102,40 @@
     }
   }
 
+  .documentation-sec {
+    &-services {
+      padding-top: 19rem;
+      max-width: 100%;
+      gap: 1.3rem;
 
+      &-1 {
+        width: 14.5rem;
+      }
+    }
+
+
+    &-quest {
+      padding-top: 4rem;
+      padding-left: 1rem;
+
+      &-mainqs {
+        margin-top: 3.125rem;
+        padding: 1rem;
+        width: 58%;
+      }
+
+      &-left {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-text {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -138,6 +188,41 @@
     }
   }
 
+  .documentation-sec {
+    &-services {
+      padding-top: 19rem;
+      max-width: 100%;
+      gap: 1rem;
+
+      &-1 {
+        padding-top: 5px;
+        width: 9rem;
+        padding-left: 5px;
+      }
+    }
+
+    &-quest {
+      padding-top: 4rem;
+      padding-left: 9.1rem;
+
+      &-mainqs {
+        margin-top: 3.125rem;
+        padding: 1rem;
+        width: 75%;
+      }
+
+      &-left {
+        padding-right: 9rem;
+        display: flex;
+        flex-direction: column;
+
+        &-text {
+          width: 100%;
+          padding-bottom: 3rem;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 500px) {
@@ -228,6 +313,10 @@
         border-radius: 0;
       }
     }
+  }
+
+  .documentation-sec {
+    display: none;
   }
 }
 
