@@ -1,6 +1,13 @@
 @import "utilities/variables";
+
+
 @import "components/heroSection";
+@import "components/cloudSection";
+
+
 @import "utilities/base";
+@import "utilities/mixins";
+
 
 // Bootstrap source files
 @import 'node_modules/bootstrap/scss/bootstrap';

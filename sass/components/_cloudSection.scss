@@ -1,0 +1,83 @@
+.cloud-storage-sec {
+  position: relative;
+  background-image: url(../images/home/Art.png);
+  height: 120vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: $dark-color;
+
+  // linear-gradient(to right bottom, rgba($dark-color, .7), rgba($dark-color-2, .7),
+
+
+  &-hresp {
+    display: none;
+  }
+
+
+
+  &-presp {
+    display: none;
+  }
+}
+
+
+.cloud-storage-step {
+  position: relative;
+  background-image: url(../images/home/Charts.png);
+  background-size: cover;
+  background-color: $dark-color-2;
+  height: 70vh;
+
+
+  &-textarea {
+    display: none;
+  }
+
+
+
+  &-steps {
+    position: absolute;
+    width: 60rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 15rem;
+    display: flex;
+
+    &-1 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+
+      &>* {
+        margin-right: 4rem;
+
+        &::after {
+          content: "";
+          display: block;
+        }
+      }
+
+      &-img {
+        height: 3.15rem;
+        margin-top: 0rem;
+        margin-bottom: .8rem;
+      }
+
+      &-heading {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--primary-color-light-2);
+      }
+
+      &-p {
+        font-weight: 100;
+        font-size: .9rem;
+        color: var(--primary-color-light-2);
+
+      }
+    }
+  }
+}
