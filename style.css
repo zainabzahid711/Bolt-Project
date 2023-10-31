@@ -3,7 +3,8 @@
   --primary-color-light: #CFD2DC;
   --primary-color-light-2: #F1F2F2;
   --light-grey-color: #f8f9fa;
-  --border-color: #8B8B8B4D; }
+  --border-color: #8B8B8B4D;
+  --secondry-color: #FAFBFC; }
 
 .nav-bar {
   padding: .5rem 0rem .6rem 0rem;
@@ -340,11 +341,11 @@
 .secure-store-sec {
   background-color: #030819;
   position: relative;
-  height: auto; }
+  height: auto;
+  padding-bottom: 10rem; }
   .secure-store-sec-privatekeys {
     padding-top: 20rem;
-    margin-left: 8.625rem;
-    padding-bottom: 10rem; }
+    margin-left: 8.625rem; }
     .secure-store-sec-privatekeys-1-frames {
       display: flex;
       margin-top: 1rem;
@@ -379,110 +380,252 @@
         margin-left: 2.625rem;
         color: var(--primary-color-light); }
 
+.service-section {
+  height: auto;
+  background-color: #061024;
+  position: relative;
+  padding-bottom: 6rem; }
+  .service-section-services {
+    max-width: 100%;
+    padding-top: 23rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center; }
+    .service-section-services-1 {
+      padding-left: 35px;
+      background-color: #000;
+      border-radius: 1rem; }
+
+.documentation-sec {
+  height: auto;
+  background-color: var(--secondry-color);
+  position: relative;
+  padding-bottom: 3rem; }
+  .documentation-sec-services {
+    max-width: 100%;
+    padding-top: 23rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center; }
+    .documentation-sec-services-1 {
+      padding-left: 35px;
+      border: 1px solid var(--border-color);
+      background-color: var(--primary-color); }
+  .documentation-sec-quest {
+    padding-top: 4rem;
+    padding-left: 10rem;
+    position: relative; }
+    .documentation-sec-quest-mainqs {
+      margin-top: 3.125rem;
+      border-bottom: 1px solid var(--border-color);
+      border-top: 1px solid var(--border-color);
+      padding: 1rem;
+      width: 50%; }
+    .documentation-sec-quest-left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .documentation-sec-quest-left-text {
+        width: 50%; }
+        .documentation-sec-quest-left-text-subqs {
+          padding: 1rem;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid var(--border-color); }
+        .documentation-sec-quest-left-text-img {
+          justify-content: flex-end; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 @media (max-width: 1200px) {
-  .cloud-storage-sec {
-    height: 90vh; }
   .custom-font-size {
     font-size: 1.8rem; }
-  .cloud-storage-sec-p {
-    font-size: .7rem; }
-  .cloud-storage-step-steps-1-heading {
-    font-size: .9rem; }
-  .cloud-storage-step-steps-1-headings {
-    font-size: .6rem; }
-  .cloud-storage-step-steps-1-p {
-    font-size: .6rem; }
+  .cloud-storage-sec {
+    height: 90vh; }
+    .cloud-storage-sec-p {
+      font-size: .7rem; }
   .cloud-storage-step-steps {
     width: 45rem;
-    left: 53%; } }
+    left: 53%; }
+    .cloud-storage-step-steps-1-heading {
+      font-size: .9rem; }
+      .cloud-storage-step-steps-1-heading-headings {
+        font-size: .6rem; }
+      .cloud-storage-step-steps-1-heading-p {
+        font-size: .6rem; }
+  .service-section-services {
+    max-width: 100%;
+    gap: 2rem; }
+    .service-section-services-1 {
+      width: 18rem; }
+  .documentation-sec-services {
+    max-width: 100%;
+    gap: 2rem; }
+    .documentation-sec-services-1 {
+      width: 18rem; }
+  .documentation-sec-quest {
+    padding-top: 4rem;
+    padding-left: 5rem; } }
 
 @media (max-width: 992px) {
-  .cloud-storage-sec {
-    height: 80vh; }
   .custom-font-size {
     font-size: 1.4rem; }
-  .cloud-storage-sec-p {
-    font-size: .7rem; }
-  .cloud-storage-step-steps-1-heading {
-    font-size: .7rem; }
-  .cloud-storage-step-steps-1-headings {
-    font-size: .7rem; }
-  .cloud-storage-step-steps-1-p {
-    font-size: .6rem; }
+  .cloud-storage-sec {
+    height: 80vh; }
+    .cloud-storage-sec-p {
+      font-size: .7rem; }
   .cloud-storage-step-steps {
     width: 42rem;
-    left: 55%; } }
+    left: 55%; }
+    .cloud-storage-step-steps-1-heading {
+      font-size: .7rem; }
+      .cloud-storage-step-steps-1-heading-headings {
+        font-size: .7rem; }
+      .cloud-storage-step-steps-1-heading-p {
+        font-size: .6rem; }
+  .service-section-services {
+    padding-top: 19rem;
+    max-width: 100%;
+    gap: 1.3rem; }
+    .service-section-services-1 {
+      width: 14.5rem; }
+  .documentation-sec-services {
+    padding-top: 19rem;
+    max-width: 100%;
+    gap: 1.3rem; }
+    .documentation-sec-services-1 {
+      width: 14.5rem; }
+  .documentation-sec-quest {
+    padding-top: 4rem;
+    padding-left: 1rem; }
+    .documentation-sec-quest-mainqs {
+      margin-top: 3.125rem;
+      padding: 1rem;
+      width: 58%; }
+    .documentation-sec-quest-left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .documentation-sec-quest-left-text {
+        width: 100%; } }
 
 @media (max-width: 768px) {
-  .cloud-storage-sec {
-    height: 70vh; }
   .custom-font-size {
     font-size: 1rem; }
-  .cloud-storage-sec-p {
-    font-size: .5rem; }
+  .cloud-storage-sec {
+    height: 70vh; }
+    .cloud-storage-sec-p {
+      font-size: .5rem; }
   .cloud-storage-step {
     height: 70vh; }
-  .cloud-storage-step-steps-1-heading {
-    font-size: .6rem; }
-  .cloud-storage-step-steps-1-headings {
-    font-size: .6rem; }
-  .cloud-storage-step-steps-1-p {
-    font-size: .5rem; }
-  .cloud-storage-step-steps {
-    width: 29rem;
-    left: 55%; } }
+    .cloud-storage-step-steps {
+      width: 29rem;
+      left: 55%; }
+      .cloud-storage-step-steps-1-heading {
+        font-size: .6rem; }
+      .cloud-storage-step-steps-1-headings {
+        font-size: .6rem; }
+      .cloud-storage-step-steps-1-p {
+        font-size: .5rem; }
+  .service-section-services {
+    padding-top: 19rem;
+    max-width: 100%;
+    gap: 1rem; }
+    .service-section-services-1 {
+      padding-top: 5px;
+      width: 9rem;
+      padding-left: 5px; }
+  .documentation-sec-services {
+    padding-top: 19rem;
+    max-width: 100%;
+    gap: 1rem; }
+    .documentation-sec-services-1 {
+      padding-top: 5px;
+      width: 9rem;
+      padding-left: 5px; }
+  .documentation-sec-quest {
+    padding-top: 4rem;
+    padding-left: 9.1rem; }
+    .documentation-sec-quest-mainqs {
+      margin-top: 3.125rem;
+      padding: 1rem;
+      width: 75%; }
+    .documentation-sec-quest-left {
+      padding-right: 9rem;
+      display: flex;
+      flex-direction: column; }
+      .documentation-sec-quest-left-text {
+        width: 100%;
+        padding-bottom: 3rem; } }
 
 @media (max-width: 500px) {
-  .primary-heading {
-    display: none; }
-  .primary-para {
-    display: none; }
-  .cloud-storage-sec {
-    height: 40vh; }
-    .cloud-storage-sec-hresp {
-      display: block;
-      color: var(--primary-color); }
-    .cloud-storage-sec-presp {
-      display: block;
-      color: var(--primary-color-light);
-      font-size: .6rem; }
   .custom-font-size {
     font-size: .9rem; }
+  .cloud-storage-sec {
+    height: 30vh; }
+    .cloud-storage-sec .primary-textbox {
+      top: 7rem;
+      left: 50%;
+      transform: translate(-50%, -50%); }
   .cloud-storage-step {
-    height: 100vh; }
-  .cloud-storage-step-textarea {
-    padding-top: 3.125rem;
-    display: block;
-    text-align: center;
-    padding-bottom: .9rem;
-    border-bottom: 1px solid var(--border-color); }
-  .cloud-storage-step-textarea-p {
-    font-size: .9rem;
-    color: var(--primary-color-light-2); }
-  .cloud-storage-step-textarea-h {
-    font-size: 1.3rem;
-    color: var(--primary-color-light-2); }
-  .cloud-storage-step-steps {
-    top: 25rem;
-    flex-direction: column;
-    text-align: center;
-    left: 55%;
-    max-width: 90%; }
-  .cloud-storage-step-steps-1 {
-    border-bottom: 1px solid var(--border-color);
-    margin-bottom: 1.5rem;
-    display: block; }
-  .cloud-storage-step-steps-1-heading {
-    display: none; }
-  .cloud-storage-step-steps-1-headings {
-    font-size: 1rem; }
-  .cloud-storage-step-steps-1-p {
-    font-size: .9rem; } }
+    height: 80vh; }
+    .cloud-storage-step-textarea {
+      padding-top: 3.125rem;
+      display: block;
+      text-align: center;
+      padding-bottom: .9rem;
+      border-bottom: 1px solid var(--border-color); }
+      .cloud-storage-step-textarea-p {
+        font-size: .9rem;
+        color: var(--primary-color-light-2); }
+      .cloud-storage-step-textarea-h {
+        font-size: 1.3rem;
+        color: var(--primary-color-light-2); }
+    .cloud-storage-step-steps {
+      top: 25rem;
+      flex-direction: column;
+      text-align: center;
+      left: 55%;
+      max-width: 90%; }
+      .cloud-storage-step-steps-1 {
+        border-bottom: 1px solid var(--border-color);
+        margin-bottom: 1.5rem;
+        display: block; }
+        .cloud-storage-step-steps-1-heading {
+          display: none; }
+        .cloud-storage-step-steps-1-headings {
+          font-size: 1rem; }
+        .cloud-storage-step-steps-1-p {
+          font-size: .9rem; }
+  .service-section .primary-textbox {
+    top: 9rem;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .service-section-services {
+    padding-top: 17rem;
+    max-width: 100%;
+    gap: 0rem;
+    flex-direction: column; }
+    .service-section-services-1 {
+      align-items: center;
+      padding-top: 5px;
+      padding-bottom: 3rem;
+      width: 21rem;
+      padding-left: 25px;
+      border-radius: 0; }
+  .documentation-sec {
+    display: none; } }
+
+@media (max-width: 500px) {
+  .secure-store-sec .primary-textbox {
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%); } }
 
 @media (max-width: 1200px) {
   .secure-store-sec-privatekeys {
@@ -496,6 +639,51 @@
   .secure-store-sec-privatekeys {
     margin-left: 3rem; } }
 
+@media (max-width: 500px) {
+  .secure-store-sec-privatekeys {
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--border-color);
+    border: 1px solid var(--border-color); } }
+
+@media (max-width: 500px) {
+  .secure-store-sec-privatekeys-1 {
+    position: relative; }
+    .secure-store-sec-privatekeys-1 .secondry-heading {
+      width: 75%;
+      margin: 0 auto; }
+      .secure-store-sec-privatekeys-1 .secondry-heading-2 {
+        width: 18%;
+        margin: 0 auto; }
+      .secure-store-sec-privatekeys-1 .secondry-heading-3 {
+        width: 30%;
+        margin: 0 auto; } }
+
+@media (max-width: 500px) {
+  .secure-store-sec-privatekeys-1-frames {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    border-bottom-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    flex-direction: column;
+    gap: 1.5rem; }
+    .secure-store-sec-privatekeys-1-frames-1-frames::after {
+      content: "";
+      position: absolute;
+      display: block;
+      bottom: 1;
+      left: 0;
+      width: 100%;
+      border-bottom: 1px solid var(--border-color); }
+    .secure-store-sec-privatekeys-1-frames .img-fluid-respons {
+      margin-top: 2rem;
+      width: 2.5rem;
+      margin: 0 auto; } }
+
 @media (max-width: 1200px) {
   .secure-store-sec-privatekeys-1-chain-sending {
     margin-left: 5.4rem; } }
@@ -504,22 +692,19 @@
   .secure-store-sec-privatekeys-1-chain-sending {
     margin-left: 4.4rem; } }
 
+@media (max-width: 500px) {
+  .secure-store-sec-privatekeys-1-chain-sending {
+    margin-left: 4.4rem; } }
+
 body {
   margin: 0; }
 
 .primary-textbox {
   position: absolute;
-  top: 15rem;
+  top: 12rem;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center; }
-  @media (max-width: 500px) {
-    .primary-textbox .primary-textbox {
-      position: absolute;
-      top: 40%;
-      bottom: -15%;
-      left: 40%;
-      transform: translate(-40%, -40%); } }
 
 .primary-heading {
   color: var(--primary-color); }
@@ -538,18 +723,65 @@ body {
       font-size: .7rem; } }
   @media (max-width: 500px) {
     .primary-para {
-      font-size: .8rem; } }
+      font-size: .9rem; } }
 
 .secondry-heading {
   color: var(--primary-color-light-2);
   font-size: .9rem; }
+  .secondry-heading-2 {
+    color: var(--primary-color-light-2);
+    font-size: .9rem; }
+  .secondry-heading-3 {
+    color: var(--primary-color-light-2);
+    font-size: .9rem; }
+
+.tartiary-heading {
+  color: var(--primary-color);
+  font-size: 1.5rem; }
+  @media (max-width: 992px) {
+    .tartiary-heading {
+      font-size: 1rem; } }
+  @media (max-width: 768px) {
+    .tartiary-heading {
+      font-size: .7rem; } }
+  @media (max-width: 500px) {
+    .tartiary-heading {
+      font-size: 1.6rem; } }
+
+.tartiary-para {
+  font-size: .9rem;
+  color: var(--primary-color-light); }
+  @media (max-width: 992px) {
+    .tartiary-para {
+      font-size: .75rem; } }
+  @media (max-width: 768px) {
+    .tartiary-para {
+      font-size: .55rem; } }
+  @media (max-width: 500px) {
+    .tartiary-para {
+      font-size: .9rem; } }
+
+.key-width1 {
+  max-width: 70%; }
+  @media (max-width: 500px) {
+    .key-width1 {
+      max-width: 120%; } }
 
 .key-width2 {
   max-width: 90%; }
   @media (max-width: 768px) {
     .key-width2 {
-      width: 70%;
+      max-width: 70%;
       flex-wrap: wrap; } }
+  @media (max-width: 500px) {
+    .key-width2 {
+      max-width: 250%; } }
+
+.key-width3 {
+  max-width: 70%; }
+  @media (max-width: 500px) {
+    .key-width3 {
+      max-width: 120%; } }
 
 .img-fluid {
   width: 8.5rem; }
@@ -567,14 +799,25 @@ body {
       width: 2rem; } }
   @media (max-width: 500px) {
     .img-fluid {
-      width: 6rem; } }
+      width: 7rem; } }
+
+.bg-img {
+  width: 100%;
+  display: block; }
+  @media (max-width: 1200px) {
+    .bg-img {
+      width: 90%; } }
+  @media (max-width: 992px) {
+    .bg-img {
+      width: 100%; } }
 
 @media (max-width: 768px) {
   .primary-icon1 {
     width: 20%; } }
 
 .primary-text {
-  font-size: .7rem; }
+  font-size: .7rem;
+  text-align: center; }
 
 .ft-small {
   font-size: .7rem; }
@@ -582,8 +825,38 @@ body {
 .margintop {
   margin-top: .7rem; }
 
+@media (max-width: 500px) {
+  .diamond-icon {
+    width: 1.87rem; } }
+
 .img-fluid-2 {
   width: 5rem; }
+  @media (max-width: 500px) {
+    .img-fluid-2 {
+      display: none; } }
+
+@media (max-width: 1200px) {
+  .img-fluid-3 {
+    width: 15rem; } }
+
+@media (max-width: 992px) {
+  .img-fluid-3 {
+    width: 12rem; } }
+
+@media (max-width: 768px) {
+  .img-fluid-3 {
+    width: 7.2rem; } }
+
+@media (max-width: 500px) {
+  .img-fluid-3 {
+    width: 15rem; } }
+
+.img-fluid-respons {
+  display: none; }
+  @media (max-width: 500px) {
+    .img-fluid-respons {
+      display: block;
+      width: .8rem; } }
 
 .custom-font-size {
   font-size: 2.5rem; }
