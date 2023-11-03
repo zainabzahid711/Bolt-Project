@@ -1,0 +1,102 @@
+.primary-icon1 {
+
+  @media (max-width: 768px) {
+    width: 20%;
+  }
+}
+
+.primary-text {
+  font-size: .7rem;
+  text-align: center;
+}
+
+.ft-small {
+  font-size: .7rem;
+}
+
+
+.margintop {
+  margin-top: .7rem;
+}
+
+.diamond-icon {
+  @media (max-width: 500px) {
+    width: 1.87rem;
+  }
+}
+
+.left-text {
+  text-align: left;
+  left: 34%;
+}
+
+.img-fluid-2 {
+  width: 5rem;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
+//service section
+.img-fluid-3 {
+  @media (max-width: 1200px) {
+    width: 15rem;
+  }
+
+  @media (max-width: 992px) {
+    width: 12rem;
+  }
+
+  @media (max-width: 768px) {
+    width: 7.2rem;
+  }
+
+  @media (max-width: 500px) {
+    width: 15rem;
+  }
+}
+
+.img-fluid-respons {
+  display: none;
+
+
+  @media (max-width: 500px) {
+    display: block;
+    width: .8rem;
+  }
+}
+
+.custom-font-size {
+  font-size: 2.5rem;
+
+  @media (max-width: 992px) {
+    font-size: 1.5rem;
+
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
+
+  }
+}
+
+.img-fluid-last {
+  @media (max-width: 992px) {
+    width: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    width: 2.1rem;
+  }
+
+  @media (max-width: 500px) {
+    width: 1.3rem;
+  }
+
+}

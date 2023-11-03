@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+
+.primary-textbox {
+  position: absolute;
+  top: 12rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  @media (max-width: 1200px) {
+    top: 8rem;
+  }
+
+  @media (max-width: 992px) {
+    top: 7rem;
+  }
+
+  @media (max-width: 768px) {
+    top: 7rem;
+  }
+}
+
+.primary-heading {
+  color: var(--primary-color);
+}
+
+.primary-para {
+  color: var(--primary-color-light);
+  font-size: 1rem;
+
+  @media (max-width: 1200px) {
+    font-size: .9rem;
+  }
+
+
+  @media (max-width: 992px) {
+    font-size: .8rem;
+  }
+
+
+  @media (max-width: 768px) {
+    font-size: .7rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: .8rem;
+  }
+}
+
+// smaller then tartiary heading
+.secondry-heading {
+  color: var(--primary-color-light-2);
+  font-size: .9rem;
+
+  &-2 {
+    color: var(--primary-color-light-2);
+    font-size: .9rem;
+  }
+
+  &-3 {
+    color: var(--primary-color-light-2);
+    font-size: .9rem;
+  }
+}
+
+.tartiary-heading {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+
+  @media (max-width: 992px) {
+    font-size: 1rem;
+  }
+
+
+  @media (max-width: 768px) {
+    font-size: .7rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1.6rem;
+  }
+}
+
+.tartiary-para {
+  font-size: .9rem;
+  color: var(--primary-color-light);
+
+  @media (max-width: 992px) {
+    font-size: .75rem;
+  }
+
+
+  @media (max-width: 768px) {
+    font-size: .55rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: .9rem;
+  }
+}
+
+.key-width1 {
+  max-width: 70%;
+
+  @media (max-width: 500px) {
+    max-width: 120%;
+  }
+
+}
+
+.key-width2 {
+  max-width: 90%;
+
+
+  @media (max-width:768px) {
+    max-width: 70%;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 500px) {
+    max-width: 250%;
+  }
+
+}
+
+.key-width3 {
+  max-width: 70%;
+
+  @media (max-width: 500px) {
+    max-width: 120%;
+  }
+}
+
+.img-fluid {
+  width: 8.5rem;
+
+  @media (max-width: 1200px) {
+    width: 6.1rem;
+  }
+
+  @media (max-width: 992px) {
+    width: 3.5rem;
+  }
+
+  @media (max-width:768px) {
+    width: 3rem;
+  }
+
+  @media (max-width: 600px) {
+    width: 2rem;
+  }
+
+  @media (max-width: 500px) {
+    width: 7rem;
+  }
+}
+
+.bg-img {
+  width: 100%;
+  display: block;
+
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+}

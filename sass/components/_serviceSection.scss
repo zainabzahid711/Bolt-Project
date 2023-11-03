@@ -1,0 +1,22 @@
+.service-section {
+  height: auto;
+  background-color: $dark-blue;
+  position: relative;
+  padding-bottom: 6rem;
+
+  &-services {
+    max-width: 100%;
+    padding-top: 23rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+
+    &-1 {
+      padding-left: 35px;
+      background-color: #000;
+      border-radius: 1rem;
+    }
+
+  }
+}

@@ -1,0 +1,18 @@
+.community-section {
+  height: 65vh;
+  position: relative;
+  background-color: #000;
+
+  &-flex {
+    padding-top: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    &-each:not(:last-child) {
+      border-right: 1px solid var(--border-color);
+      padding-right: 1.5rem;
+    }
+  }
+}
