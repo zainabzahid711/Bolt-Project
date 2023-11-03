@@ -8,6 +8,18 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+
+  @media (max-width: 1200px) {
+    top: 8rem;
+  }
+
+  @media (max-width: 992px) {
+    top: 7rem;
+  }
+
+  @media (max-width: 768px) {
+    top: 7rem;
+  }
 }
 
 .primary-heading {
@@ -33,7 +45,7 @@ body {
   }
 
   @media (max-width: 500px) {
-    font-size: .9rem;
+    font-size: .8rem;
   }
 }
 

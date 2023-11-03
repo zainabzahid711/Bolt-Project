@@ -49,23 +49,28 @@
             width: 15px;
           }
         }
-      }
 
-      &-chain {
-        display: flex;
-        flex-direction: column;
+        &-innertext {
+          &-chain {
+
+            display: block;
+            flex-direction: column;
+            align-items: center;
 
 
-        &-sending {
-          margin-left: 6.625rem;
+            &-sending {
+              margin-left: 2.625rem;
+            }
+
+            &-down span {
+              color: var(--primary-color-light);
+            }
+          }
+
         }
 
-        &-down span {
-          margin-left: 2.625rem;
-          color: var(--primary-color-light);
-        }
-      }
 
+      }
     }
   }
 }
