@@ -1,0 +1,57 @@
+.documentation-sec {
+  height: auto;
+  background-color: var(--secondry-color);
+  position: relative;
+  padding-bottom: 3rem;
+
+  &-services {
+    max-width: 100%;
+    padding-top: 23rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+
+    &-1 {
+      padding-left: 35px;
+      border: 1px solid var(--border-color);
+      background-color: var(--primary-color);
+    }
+  }
+
+  &-quest {
+    padding-top: 4rem;
+    padding-left: 10rem;
+    position: relative;
+
+    &-mainqs {
+      margin-top: 3.125rem;
+      border-bottom: 1px solid var(--border-color);
+      border-top: 1px solid var(--border-color);
+      padding: 1rem;
+      width: 50%;
+    }
+
+    &-left {
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &-text {
+        width: 50%;
+
+        &-subqs {
+          padding: 1rem;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid var(--border-color);
+        }
+
+        &-img {
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+}

@@ -3,10 +3,18 @@
 
 @import "components/heroSection";
 @import "components/cloudSection";
+@import "components/storeSection";
+@import "components/serviceSection";
+@import "components/docSection";
+@import "components/newsSection";
+@import "components/comSection";
+@import "components/footer";
 
 
 @import "utilities/base";
 @import "utilities/mixins";
+@import "utilities/typography";
+@import "utilities/utility";
 
 
 // Bootstrap source files
