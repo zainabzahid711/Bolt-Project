@@ -438,7 +438,7 @@
   }
 
   .cloud-storage-sec {
-    height: 30vh;
+    height: 45vh;
 
     .primary-textbox {
       top: 7rem;
@@ -449,7 +449,7 @@
 
 
   .cloud-storage-step {
-    height: 80vh;
+    height: 130vh;
 
     &-textarea {
       padding-top: 3.125rem;
@@ -530,7 +530,7 @@
   }
 
   .community-section {
-    height: 45vh;
+    height: 50vh;
 
     &-flex {
       padding-top: 12rem;
@@ -553,33 +553,31 @@
     background-color: var(--dark-color-3);
     height: 70rem;
 
-
+    h6 a {
+      position: relative;
+      left: 45%;
+      top: .1rem;
+      transform: translateX(-50%, -50%);
+      color: var(--primary-color-light);
+      text-decoration: none;
+      font-size: .725rem;
+      opacity: .7;
+      letter-spacing: 2px;
+    }
 
     &-ul {
-
-      h6 a {
-        position: relative;
-        left: 55%;
-        top: .2rem;
-        transform: translateX(-50%, -50%);
-        margin-bottom: 2rem;
-        color: var(--primary-color-light);
-        text-decoration: none;
-        font-size: .825rem;
-      }
-
       position: absolute;
       display: flex;
       flex-direction: column;
-      top: 27rem;
-      left: 35%;
+      top: 43rem;
+      left: 45%;
       transform: translate(-50%, -50%);
 
       &-1 {
         border-top: 1px solid var(--border-color);
         box-sizing: border-box;
         margin-bottom: 2rem;
-        margin-top: .9rem;
+        margin-top: .50rem;
 
         ul {
           list-style-type: none;
@@ -620,20 +618,19 @@
         li {
           text-decoration: none;
           text-align: center;
-          padding: .5rem 2rem .625rem 6rem;
         }
 
         li:nth-child(-n+2) {
           float: left;
-          transform: translateX(-3rem);
-          height: 2rem;
+          // transform: translateX(-4rem);
+          padding: 0.9rem 3rem .325rem 1.5rem;
         }
 
-        li:nth-child(n+7) {
+        li:nth-child(n+5) {
           float: right;
-          transform: translateX(-50rem);
-          height: 3.5rem;
-          margin-right: -4rem;
+          // transform: translateX(5rem, -1rem);
+          padding: 0.9rem 3rem .325rem 1.5rem;
+
         }
 
         li img {
@@ -666,7 +663,7 @@
         li {
           text-decoration: none;
           text-align: center;
-          padding: .5rem 2rem .625rem 6rem;
+          padding: .5rem 1rem .225rem 3rem;
         }
 
         li:nth-child(-n+4) {
@@ -712,28 +709,32 @@
 
   &-privatekeys {
     @media (max-width: 1200px) {
+      padding-top: 15rem;
       margin-left: 5.5rem;
     }
 
     @media (max-width: 992px) {
+      padding-top: 12rem;
       margin-left: 2.5rem;
     }
 
     @media (max-width: 768px) {
+      padding-top: 10rem;
       margin-left: 3rem;
     }
 
     @media (max-width: 500px) {
+      padding-top: 16rem;
       width: 80%;
       align-content: center;
       justify-content: center;
       align-items: center;
-      background-color: var(--border-color);
-      border: 1px solid var(--border-color);
     }
 
     &-1 {
       @media (max-width: 500px) {
+        background-color: var(--border-color);
+        border: 1px solid var(--border-color);
 
         .secondry-heading {
           width: 75%;
