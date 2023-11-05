@@ -4,31 +4,42 @@
   }
 
   .cloud-storage-sec {
-    height: 90vh;
+    height: 100%;
+    min-height: 34rem;
 
     &-p {
       font-size: .7rem;
     }
   }
 
-  .cloud-storage-step-steps {
-    width: 45rem;
-    left: 53%;
+  .cloud-storage-step {
+    height: 100%;
+    min-height: 17rem;
 
-    &-1-heading {
-      font-size: .9rem;
+    &-steps {
+      width: 45rem;
+      left: 52%;
+
+      &-1 {
+        width: 30rem;
+
+        &-1-heading {
+          font-size: .9rem;
 
 
-      &-headings {
-        font-size: .6rem;
+          &-headings {
+            font-size: .6rem;
+          }
+
+          &-p {
+            font-size: .6rem;
+          }
+
+        }
       }
-
-      &-p {
-        font-size: .6rem;
-      }
-
     }
   }
+
 
   .service-section {
     &-services {
@@ -44,6 +55,7 @@
   .documentation-sec {
     &-services {
       max-width: 100%;
+      padding-left: 2rem;
       gap: 2rem;
 
       &-1 {
@@ -53,14 +65,17 @@
 
     &-quest {
       padding-top: 4rem;
-      padding-left: 5rem;
+      padding-left: 2rem;
     }
   }
 
   .news-section {
-    height: 60vh;
+    height: 100%;
+    min-height: 22rem;
 
     &-inputcontainer {
+      left: 25%;
+
       &-inputfield {
         padding: 15px 14px;
 
@@ -77,7 +92,8 @@
   }
 
   .community-section {
-    height: 65vh;
+    height: 100%;
+    min-height: 26rem;
 
     &-flex {
       padding-top: 15rem;
@@ -85,12 +101,12 @@
   }
 
   .footer {
-    height: 70vh;
+    height: 60vh;
     position: relative;
 
     &-text {
       position: absolute;
-      top: 9rem;
+      top: 5rem;
       left: 30%;
       transform: translate(-40%, -40%);
 
@@ -102,7 +118,7 @@
     &-ul {
       display: flex;
       position: absolute;
-      top: 12rem;
+      top: 9rem;
       left: 55%;
       transform: translate(-40%, -40%);
 
@@ -130,34 +146,39 @@
   }
 
   .cloud-storage-sec {
-    height: 80vh;
+    height: 100%;
+    min-height: 26rem;
 
     &-p {
       font-size: .7rem;
     }
   }
 
-  .cloud-storage-step-steps {
-    width: 42rem;
-    left: 55%;
+  .cloud-storage-step {
+    height: 100%;
+    min-height: 16rem;
 
-    &-1-heading {
-      font-size: .7rem;
+    &-steps {
+      width: 42rem;
+      left: 55%;
 
-      &-headings {
+      &-1-heading {
         font-size: .7rem;
-      }
 
-      &-p {
-        font-size: .6rem;
+        &-headings {
+          font-size: .7rem;
+        }
+
+        &-p {
+          font-size: .6rem;
+        }
       }
     }
   }
 
-
   .service-section {
     &-services {
-      padding-top: 19rem;
+      padding-top: 15rem;
       max-width: 100%;
       gap: 1.3rem;
 
@@ -181,7 +202,7 @@
 
     &-quest {
       padding-top: 4rem;
-      padding-left: 1rem;
+      padding-left: 2rem;
 
       &-mainqs {
         margin-top: 3.125rem;
@@ -204,11 +225,12 @@
 
 
   .news-section {
-    height: 28vh;
+    height: 100%;
+    min-height: 18rem;
 
     &-inputcontainer {
-      top: 65%;
-      left: 38%;
+      top: 69%;
+      left: 27%;
 
       &-inputfeild {
         padding: 12px 12px;
@@ -225,16 +247,18 @@
   }
 
   .community-section {
-    height: 29vh;
+    height: 100%;
+    min-height: 23rem;
   }
 
   .footer {
-    height: 32vh;
+    height: 100%;
+    min-height: 18rem;
     position: relative;
 
     &-text {
       position: absolute;
-      top: 9rem;
+      top: 5rem;
       left: 25%;
       transform: translate(-40%, -40%);
 
@@ -246,7 +270,7 @@
     &-ul {
       display: flex;
       position: absolute;
-      top: 12rem;
+      top: 8rem;
       left: 55%;
       transform: translate(-40%, -40%);
 
@@ -274,7 +298,8 @@
   }
 
   .cloud-storage-sec {
-    height: 70vh;
+    height: 100%;
+    min-height: 20rem;
 
     &-p {
       font-size: .5rem;
@@ -282,31 +307,36 @@
   }
 
   .cloud-storage-step {
-    height: 70vh;
+    height: 100%;
+    min-height: 16rem;
+
 
     &-steps {
       width: 29rem;
-      left: 55%;
+      left: 50%;
 
-      &-1-heading {
-        font-size: .6rem;
+      &-1 {
+        width: 12rem;
+
+        &-heading {
+          font-size: .6rem;
+        }
+
+        &-headings {
+          font-size: .6rem;
+        }
+
+        &-p {
+          font-size: .5rem;
+        }
       }
 
-      &-1-headings {
-        font-size: .6rem;
-      }
-
-      &-1-p {
-        font-size: .5rem;
-      }
     }
   }
 
-
-
   .service-section {
     &-services {
-      padding-top: 19rem;
+      padding-top: 12rem;
       max-width: 100%;
       gap: 1rem;
 
@@ -320,7 +350,7 @@
 
   .documentation-sec {
     &-services {
-      padding-top: 19rem;
+      padding-top: 12rem;
       max-width: 100%;
       gap: 1rem;
 
@@ -332,11 +362,11 @@
     }
 
     &-quest {
-      padding-top: 4rem;
-      padding-left: 9.1rem;
+      padding-top: 3rem;
+      padding-left: 2rem;
 
       &-mainqs {
-        margin-top: 3.125rem;
+        margin-top: 2.125rem;
         padding: 1rem;
         width: 75%;
       }
@@ -357,11 +387,12 @@
 
 
   .news-section {
-    height: 30vh;
+    height: 100%;
+    min-height: 17rem;
 
     &-inputcontainer {
       top: 69%;
-      left: 32%;
+      left: 30%;
 
       &-inputfield {
         padding: 10px 9px;
@@ -380,11 +411,12 @@
   }
 
   .community-section {
-    height: 20rem;
+    height: 100%;
+    min-height: 18rem;
     padding-top: 0rem;
 
     &-flex {
-      padding-top: 14rem;
+      padding-top: 12rem;
 
       &-each:not(:last-child) {
         padding-right: 1rem;
@@ -393,13 +425,13 @@
   }
 
   .footer {
-
-    height: 23rem;
+    height: 100%;
+    min-height: 18rem;
     position: relative;
 
     &-text {
       position: absolute;
-      top: 9rem;
+      top: 4rem;
       left: 20%;
       transform: translate(-40%, -40%);
 
@@ -411,7 +443,7 @@
     &-ul {
       display: flex;
       position: absolute;
-      top: 12rem;
+      top: 7rem;
       left: 55%;
       transform: translate(-40%, -40%);
 
@@ -438,7 +470,8 @@
   }
 
   .cloud-storage-sec {
-    height: 45vh;
+    height: 100%;
+    min-height: 14rem;
 
     .primary-textbox {
       top: 7rem;
@@ -449,7 +482,8 @@
 
 
   .cloud-storage-step {
-    height: 130vh;
+    height: 100%;
+    min-height: 42rem;
 
     &-textarea {
       padding-top: 3.125rem;
@@ -474,13 +508,14 @@
       top: 25rem;
       flex-direction: column;
       text-align: center;
-      left: 55%;
-      max-width: 90%;
+      left: 60%;
+      max-width: 80%;
 
       &-1 {
         border-bottom: 1px solid var(--border-color);
         margin-bottom: 1.5rem;
         display: block;
+        width: 18rem;
 
         &-heading {
           display: none;
@@ -530,10 +565,11 @@
   }
 
   .community-section {
-    height: 50vh;
+    height: 100%;
+    min-height: 18rem;
 
     &-flex {
-      padding-top: 12rem;
+      padding-top: 13rem;
       gap: 2rem;
 
       &-each:not(:last-child) {
@@ -551,7 +587,7 @@
     position: relative;
     display: block;
     background-color: var(--dark-color-3);
-    height: 70rem;
+    height: 100rem;
 
     h6 a {
       position: relative;
@@ -569,7 +605,7 @@
       position: absolute;
       display: flex;
       flex-direction: column;
-      top: 43rem;
+      top: 46rem;
       left: 45%;
       transform: translate(-50%, -50%);
 
@@ -588,6 +624,7 @@
         li {
           text-decoration: none;
           padding: .5rem 0rem .625rem 6rem;
+          margin-top: .9rem;
         }
 
         li img {
@@ -611,30 +648,17 @@
 
         ul {
           list-style-type: none;
-          margin: 0px;
-          padding: 0px;
+          padding: 0;
+          margin: 0;
         }
 
         li {
-          text-decoration: none;
-          text-align: center;
+          padding: 5px 10px;
+          margin-top: .9rem;
         }
 
-        li:nth-child(-n+2) {
-          float: left;
-          // transform: translateX(-4rem);
-          padding: 0.9rem 2.5rem .325rem 1.5rem;
-        }
-
-        li:nth-child(n+5) {
-          float: right;
-          // transform: translateX(5rem, -1rem);
-          padding: 0.9rem 3rem .325rem 1.5rem;
-
-        }
-
-        li img {
-          margin-right: .4rem;
+        .right-side {
+          margin-left: auto;
         }
 
         a {
@@ -652,32 +676,53 @@
         flex-wrap: wrap;
         border-top: 1px solid var(--border-color);
         margin-bottom: 2rem;
+        margin-top: 1rem;
+
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+
+        li {
+          padding: 5px 10px;
+          margin-top: .9rem;
+        }
+
+        .right-side {
+          margin-left: auto;
+        }
+
+        a {
+          color: var(--primary-color-light);
+          text-decoration: none;
+          font-size: .825rem;
+        }
+      }
+
+
+      &-4 {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-top: 1px solid var(--border-color);
+        margin-bottom: 2rem;
         margin-top: .9rem;
 
         ul {
           list-style-type: none;
-          margin: 0px;
-          padding: 0px;
+          padding: 0;
+          margin: 0;
         }
 
         li {
-          text-decoration: none;
-          text-align: center;
-          padding: .5rem 1rem .225rem 3rem;
+          padding: 5px 10px;
+          margin-top: .9rem;
         }
 
-        li:nth-child(-n+4) {
-          float: left;
-          transform: translateX(-3rem);
-          height: 2rem;
-        }
-
-        // li:nth-child(-n+4) {
-        li:nth-child(-n+4):nth-child(n+8) {
-          float: right;
-          transform: translateY(-5rem);
-          height: 3.5rem;
-          margin-right: -5rem;
+        .left-side {
+          margin-right: auto;
         }
 
         li img {
@@ -690,9 +735,51 @@
           font-size: .825rem;
         }
       }
-
-
     }
+
+    &-icons {
+      position: absolute;
+      top: 82rem;
+
+
+      &-upper {
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+        border-left: 1px solid var(--border-color);
+
+        &>* {
+          padding: 1rem 1.5rem 1rem 2rem;
+          border-right: 1px solid var(--border-color);
+
+          @media (max-width: 390px) {
+            padding: 1rem .5rem 1rem 2rem;
+          }
+        }
+      }
+
+      &-down {
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+        border-left: 1px solid var(--border-color);
+
+        &>* {
+          padding: 1rem 1.5rem 1rem 2rem;
+          border-right: 1px solid var(--border-color);
+
+          @media (max-width: 390px) {
+            padding: 1rem .5rem 1rem 2rem;
+          }
+        }
+      }
+    }
+
+    &-terms {
+      position: absolute;
+      padding-top: 93rem;
+      left: 25%;
+      text-align: center;
+    }
+
   }
 
 }
@@ -789,11 +876,11 @@
 
     &-1-frames-innertext-chain-sending {
       @media (max-width: 1200px) {
-        margin-left: 5.4rem;
+        margin-left: 2.2rem;
       }
 
       @media (max-width: 992px) {
-        margin-left: 4.4rem;
+        margin-left: .7rem;
       }
 
       @media (max-width: 500px) {

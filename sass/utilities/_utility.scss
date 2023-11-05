@@ -28,6 +28,14 @@
 .left-text {
   text-align: left;
   left: 28%;
+
+  @media (max-width: 1200px) {
+    left: 23%;
+  }
+
+  @media (max-width: 768px) {
+    left: 32%;
+  }
 }
 
 .img-fluid-2 {
