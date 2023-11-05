@@ -1,20 +1,16 @@
 .cloud-storage-sec {
   position: relative;
   background-image: url(../images/home/Art.png);
-  height: 120vh;
+  height: 100%;
+  min-height: 40.5rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   background-color: $dark-color;
 
-  // linear-gradient(to right bottom, rgba($dark-color, .7), rgba($dark-color-2, .7),
-
-
   &-hresp {
     display: none;
   }
-
-
 
   &-presp {
     display: none;
@@ -27,28 +23,27 @@
   background-image: url(../images/home/Charts.png);
   background-size: cover;
   background-color: $dark-color-2;
-  height: 70vh;
-
+  height: 100%;
+  min-height: 22.5rem;
 
   &-textarea {
     display: none;
   }
 
-
-
   &-steps {
     position: absolute;
-    width: 60rem;
+    width: 55rem;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    top: 15rem;
+    top: 10rem;
     display: flex;
 
     &-1 {
       display: flex;
       flex-direction: column;
       text-align: center;
+      width: 40rem;
 
 
       &>* {

@@ -1,12 +1,13 @@
 .news-section {
-  height: 65vh;
+  height: 100%;
+  min-height: 25rem;
   background-color: $dark-blue;
   position: relative;
 
   &-inputcontainer {
     transform: translate(-50%, -50%);
     top: 70%;
-    left: 35%;
+    left: 29%;
     display: flex;
     position: absolute;
 

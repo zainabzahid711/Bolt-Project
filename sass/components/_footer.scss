@@ -4,15 +4,17 @@
 
 .footer {
   background-color: var(--dark-color-3);
-  height: 60vh;
+  height: 100%;
+  min-height: 22rem;
   display: flex;
   border-top: 1px solid var(--border-color);
   color: var(--primary-color-light);
   position: relative;
 
+
   &-text {
     position: absolute;
-    top: 9rem;
+    top: 6rem;
     left: 25%;
     transform: translate(-40%, -40%);
     text-align: left;
@@ -30,7 +32,7 @@
   &-ul {
     display: flex;
     position: absolute;
-    top: 12rem;
+    top: 9.2rem;
     left: 55%;
     transform: translate(-40%, -40%);
 
