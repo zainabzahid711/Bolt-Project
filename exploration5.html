@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Home Page Exploration 5 </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f3f5f9;
+  }
+
+  .header-exp {
+    background-color: #ffff;
+    height: 64px;
+    /* border-bottom: 1px solid #f3f5f9; */
+  }
+
+  .header-bolt {
+    width: 74px;
+    height: 34px;
+  }
+
+  .header-logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .side-bar {
+    background-color: #ffff;
+    max-width: 280px;
+    width: 100%;
+    position: relative;
+  }
+
+  .lower-side {
+    margin-top: 150%;
+    position: absolute;
+  }
+
+  .button {
+    width: 216px;
+    height: 56px;
+    padding: 12px 28px;
+    background-image: linear-gradient(to bottom, #97E81C, #03C17D);
+    color: #ffff;
+    text-align: center;
+  }
+
+  .upper-content {
+    max-width: 100%;
+  }
+
+  .left-content {
+    padding: 35px;
+    background-color: #ffff;
+    width: 587px;
+    height: 272px;
+  }
+
+  .main-img {
+    width: 380px;
+  }
+
+  .right-content {
+    padding: 35px;
+    background-color: #ffff;
+    width: 550px;
+    height: 272px;
+  }
+
+  .l-left-content {
+    background-color: #ffff;
+    width: 755px;
+    height: 487px;
+  }
+
+  .l-right-content {
+    width: 293px;
+    height: 562px;
+    background-color: #ffff;
+  }
+
+  /* @media (max-width: 1254px) {
+    .upper-content {
+      max-width: 90%;
+      width: 930px;
+    }
+  } */
+
+  @media (max-width: 1400px) {
+    .upper-content {
+      max-width: 115%;
+      width: 1000px;
+    }
+
+    .stock-img {
+      width: 580px;
+      max-width: 100%;
+    }
+
+    .left-content {
+      padding: 35px;
+      width: 687px;
+      max-width: 100%;
+      height: 272px;
+    }
+
+    .main-img {
+      width: 380px;
+      max-width: 100%;
+    }
+
+    .right-content {
+      padding: 25px;
+      max-width: 100%;
+      height: 272px;
+    }
+
+    .l-left-content {
+      width: 755px;
+      height: 487px;
+    }
+
+    .l-right-content {
+      width: 293px;
+      height: 562px;
+    }
+  }
+
+  @media (max-width:1200px) {
+    .stock-img {
+      width: 250px;
+    }
+
+    .left-content {
+      padding: 25px;
+      width: 587px;
+      height: 272px;
+    }
+
+    .main-img {
+      width: 280px;
+    }
+
+    .right-content {
+      padding: 30px;
+      width: 548px;
+      height: 272px;
+    }
+
+    .l-left-content {
+      width: 755px;
+      height: 487px;
+    }
+
+    .l-right-content {
+      width: 293px;
+      height: 562px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .side-bar {
+      width: 190px;
+    }
+
+    .button {
+      width: 160px;
+      height: 56px;
+      padding: 13px 28px;
+    }
+
+
+    .stock-img {
+      width: 350px;
+    }
+
+    .left-content {
+      padding: 25px;
+      width: 387px;
+      height: 272px;
+    }
+
+    .main-img {
+      width: 480px;
+    }
+
+    .right-content {
+      padding: 15px;
+      width: 348px;
+      height: 265px;
+    }
+
+    .l-left-content {
+      width: 755px;
+      height: 487px;
+    }
+
+    .l-right-content {
+      width: 293px;
+      height: 562px;
+    }
+  }
+</style>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="header-exp d-flex justify-content-between border-bottom">
+        <img class="header-bolt m-2" src="images/explore/svgs/Bolt Logo.svg" alt="bolt-logo">
+        <div class="header-text mt-3 m-5">
+          <img class="header-logo" src="images/explore/svgs/header-22.svg" alt="profile-picture">
+          <span class="m-2"> John Doe </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row min-vh-90">
+      <!-- ---------------side-bar---------------- -->
+
+      <div class="side-bar col-lg-4 col-md-4 col-sm-5  d-none d-md-block">
+        <div class="upper-side m-3">
+          <div class="wallet d-flex gap-3 mt-5">
+            <img src="images/explore/svgs/home icon.svg" alt="wallet-home-icon">
+            <span class="fw-bolder"> Wallet </span>
+          </div>
+          <div class="stake d-flex gap-3 mt-5">
+            <img src="images/explore/svgs/stack icon.svg" alt="wallet-home-icon">
+            <span> Stake </span>
+          </div>
+          <div class="Activity d-flex gap-3 mt-5">
+            <img src="images/explore/svgs/bell icon.svg" alt="wallet-home-icon">
+            <span> Activity </span>
+          </div>
+          <div class=" mt-5 border-bottom"></div>
+          <div class="Settings d-flex gap-3 mt-5">
+            <img src="images/explore/svgs/settings.svg" alt="wallet-home-icon">
+            <span> Settings </span>
+          </div>
+        </div>
+        <div class="lower-side d-flex flex-column gap-4">
+          <a href="#" class="button text-decoration-none rounded-3"> Send </a>
+          <a href="#" class="button text-decoration-none rounded-3"> Recieve </a>
+        </div>
+      </div>
+
+
+      <!-------------------------- content----------------------------- -->
+
+      <div class="col-lg-8 col-md-8 mt-xxl-5 m-xxl-4 m-xl-4 mt-xl-5 mt-md-5 ">
+
+        <!-- -------------------upper-content---------------------- -->
+
+
+        <div class="upper-content d-flex gap-4">
+          <div class="left-content rounded-3">
+            <span> Available Balance </span>
+            <div class="h3 mt-2 fw-bold">
+              1000.00 <span class="fs-6 fw-lighter">ZCN</span>
+            </div>
+            <img class="stock-img mt-4" src="images/explore/svgs/stock range.svg" alt="stock range in zcn">
+            <div class="d-flex justify-content-between flex-shrink-0">
+              <span class="fs-6 fw-bold"> Stacked </span>
+              <span class="fs-6 fw-bold"> Available </span>
+            </div>
+            <div class="h6 mt-5">
+              Total Balance <span class="fw-bolder">$1000.00</span>
+            </div>
+          </div>
+
+
+          <div class="right-content rounded-3">
+
+            <img class="main-img" src="images/explore/Group 1160443896.png" alt="stock-range-graph">
+
+          </div>
+        </div>
+
+        <!-- ----------------------lower-content---------------- -->
+        <div class="lower-content mt-5 d-flex  gap-4">
+          <div class="l-left-content">
+            l-leftcontent
+          </div>
+          <div class="l-right-content rounded-1">
+            l-rightcontent
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
