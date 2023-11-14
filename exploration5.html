@@ -82,50 +82,74 @@
   }
 
   .l-left-content {
-    background-color: #ffff;
     width: 755px;
     height: 487px;
   }
 
+  .recent {
+    background-color: #f3f5f9;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 25px;
+  }
+
+  .dolphin {
+    font-size: 12px;
+    background-color: #ffff;
+    margin-top: 10px;
+    padding: 8px;
+    max-width: 100%;
+    width: 655px;
+  }
+
+
   .l-right-content {
     width: 293px;
     height: 562px;
+  }
+
+  .stoked-successd {
     background-color: #ffff;
   }
 
-  /* @media (max-width: 1254px) {
-    .upper-content {
-      max-width: 90%;
-      width: 930px;
-    }
-  } */
-
   @media (max-width: 1400px) {
+    .side-bar {
+      width: 260px;
+      max-width: 100%;
+    }
+
+    .button {
+      width: 210px;
+      height: 56px;
+      padding: 13px 28px;
+    }
+
     .upper-content {
-      max-width: 115%;
-      width: 1000px;
+      max-width: 100%;
+      width: 1600px;
     }
 
     .stock-img {
-      width: 580px;
+      width: 780px;
       max-width: 100%;
     }
 
     .left-content {
       padding: 35px;
-      width: 687px;
+      width: 987px;
       max-width: 100%;
       height: 272px;
     }
 
     .main-img {
-      width: 380px;
+      width: 780px;
       max-width: 100%;
     }
 
     .right-content {
       padding: 25px;
       max-width: 100%;
+      width: 980px;
       height: 272px;
     }
 
@@ -141,23 +165,44 @@
   }
 
   @media (max-width:1200px) {
+    .side-bar {
+      width: 230px;
+      max-width: 100%;
+    }
+
+    .button {
+      width: 190px;
+      height: 56px;
+      padding: 13px 28px;
+    }
+
+
+    .upper-content {
+      max-width: 100%;
+    }
+
     .stock-img {
-      width: 250px;
+      width: 450px;
+      max-width: 100%;
     }
 
     .left-content {
       padding: 25px;
-      width: 587px;
+      width: 790px;
+      max-width: 100%;
       height: 272px;
     }
 
     .main-img {
-      width: 280px;
+      width: 580px;
+      max-width: 100%;
     }
 
     .right-content {
-      padding: 30px;
-      width: 548px;
+      padding: 10px;
+      padding-bottom: 2px;
+      max-width: 100%;
+      width: 748px;
       height: 272px;
     }
 
@@ -174,11 +219,12 @@
 
   @media (max-width: 992px) {
     .side-bar {
-      width: 190px;
+      width: 240px;
+      max-width: 100%;
     }
 
     .button {
-      width: 160px;
+      width: 200px;
       height: 56px;
       padding: 13px 28px;
     }
@@ -186,21 +232,25 @@
 
     .stock-img {
       width: 350px;
+      max-width: 100%;
     }
 
     .left-content {
       padding: 25px;
-      width: 387px;
+      width: 460px;
+      max-width: 100%;
       height: 272px;
     }
 
     .main-img {
-      width: 480px;
+      width: 580px;
+      max-width: 100%;
     }
 
     .right-content {
       padding: 15px;
-      width: 348px;
+      width: 478px;
+      max-width: 100%;
       height: 265px;
     }
 
@@ -233,6 +283,9 @@
       <!-- ---------------side-bar---------------- -->
 
       <div class="side-bar col-lg-4 col-md-4 col-sm-5  d-none d-md-block">
+
+
+
         <div class="upper-side m-3">
           <div class="wallet d-flex gap-3 mt-5">
             <img src="images/explore/svgs/home icon.svg" alt="wallet-home-icon">
@@ -261,7 +314,8 @@
 
       <!-------------------------- content----------------------------- -->
 
-      <div class="col-lg-8 col-md-8 mt-xxl-5 m-xxl-4 m-xl-4 mt-xl-5 mt-md-5 ">
+      <div
+        class="col-lg-8 col-md-8 mt-xxl-5 m-xxl-4 m-xl-auto m-lg-auto mt-lg-5 mt-xl-5 m-md-auto mt-md-5 m-sm-auto mt-sm-5 mt-5 ">
 
         <!-- -------------------upper-content---------------------- -->
 
@@ -292,11 +346,133 @@
 
         <!-- ----------------------lower-content---------------- -->
         <div class="lower-content mt-5 d-flex  gap-4">
-          <div class="l-left-content">
-            l-leftcontent
+          <div class="l-left-content rounded-3">
+            <div class="recent d-flex justify-content-between">
+              <span class="fw-bold"> Recent Transections </span>
+              <span class="fw-bold" style="color: #03C17D"> View all </span>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolpin brown left.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin right.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin left maroon.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin right white.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin right blue.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin up white.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolpin brown left.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
           </div>
           <div class="l-right-content rounded-1">
-            l-rightcontent
+            <div class="recent fw-bold">
+              Recent activity
+            </div>
+            <div class="stoked-successd">
+              <span class="bg-opacity-50"> New </span>
+
+              <div class="stoke1">
+                <img src="images/explore/svgs/dolphin right.svg" alt="right-dolphin">
+                <span> You have successfully stoked </span>
+                <span class="fw-bolder"> 900 ZCN </span>
+                <div class="button">
+                  <a href="#"> View Details </a>
+                </div>
+              </div>
+
+              <div class="stoke2">
+                <img src="images/explore/svgs/dolpin brown left.svg" alt="brown-left">
+                <span> Adam Brian sent you </span>
+                <span class="fw-bolder"> 1.22 ZCH </span>
+              </div>
+
+              <span class="bg-opacity-50"> New </span>
+              <div class="stoke2">
+                <img src="images/explore/svgs/dolpin brown left.svg" alt="brown-left">
+                <span> Adam Brian sent you </span>
+                <span class="fw-bolder"> 1.22 ZCH </span>
+              </div>
+            </div>
           </div>
         </div>
 
