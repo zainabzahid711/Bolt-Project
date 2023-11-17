@@ -46,7 +46,7 @@
   }
 
   .lower-side {
-    margin-top: 150%;
+    margin-top: 155%;
     position: absolute;
   }
 
@@ -68,20 +68,35 @@
     background-color: #ffff;
     width: 587px;
     height: 272px;
+    max-width: 100%;
+  }
+
+  .stock-img {
+    width: 520px;
+    max-width: 100%;
   }
 
   .main-img {
-    width: 380px;
+    width: 448px;
+    max-width: 100%;
   }
 
   .right-content {
     padding: 35px;
     background-color: #ffff;
-    width: 550px;
+    width: 448px;
+    max-width: 100%;
     height: 272px;
   }
 
+  .lower-content {
+    max-width: 100%;
+    width: 1650px;
+    padding-bottom: 46px;
+  }
+
   .l-left-content {
+    max-width: 100%;
     width: 755px;
     height: 487px;
   }
@@ -97,25 +112,45 @@
     font-size: 12px;
     background-color: #ffff;
     margin-top: 10px;
-    padding: 8px;
+    padding: 9px;
     max-width: 100%;
-    width: 655px;
+    width: 755px;
   }
 
-
   .l-right-content {
-    width: 293px;
-    height: 562px;
+    max-width: 100%;
+    width: 310px;
+    height: 542px;
+  }
+
+  .stoke1 {
+    border-top: 1px solid #ddd;
   }
 
   .stoked-successd {
     background-color: #ffff;
+    font-size: 13px;
+    max-width: 100%;
+    width: 300px;
+    height: 540px;
+    padding: 20px 10px 20px 5px;
   }
+
+  .activity-btn {
+    margin-left: 65px;
+    outline: #03C17D;
+  }
+
 
   @media (max-width: 1400px) {
     .side-bar {
-      width: 260px;
+      width: 240px;
       max-width: 100%;
+    }
+
+    .lower-side {
+      margin-top: 195%;
+      position: absolute;
     }
 
     .button {
@@ -130,48 +165,78 @@
     }
 
     .stock-img {
-      width: 780px;
+      width: 580px;
       max-width: 100%;
     }
 
     .left-content {
       padding: 35px;
-      width: 987px;
+      width: 587px;
       max-width: 100%;
       height: 272px;
     }
 
     .main-img {
-      width: 780px;
+      width: 580px;
       max-width: 100%;
     }
 
     .right-content {
       padding: 25px;
       max-width: 100%;
-      width: 980px;
+      width: 480px;
       height: 272px;
     }
 
+    .lower-content {
+      max-width: 100%;
+      width: 1700px;
+      padding-bottom: 40px;
+    }
+
     .l-left-content {
-      width: 755px;
+      max-width: 71%;
+      width: 750px;
       height: 487px;
     }
 
+    .dolphin {
+      padding: 8px;
+      max-width: 100%;
+      width: 750px;
+    }
+
     .l-right-content {
-      width: 293px;
+      max-width: 35%;
+      width: 310px;
       height: 562px;
+    }
+
+    .stoked-successd {
+      padding: 20px 10px 20px 5px;
+      max-width: 100%;
+      width: 310px;
+    }
+
+    .activity-btn {
+      margin-left: 65px;
+      outline: #03C17D;
     }
   }
 
   @media (max-width:1200px) {
     .side-bar {
-      width: 230px;
+      width: 200px;
       max-width: 100%;
     }
 
+    .lower-side {
+      margin-top: 220%;
+      position: absolute;
+    }
+
     .button {
-      width: 190px;
+      width: 175px;
       height: 56px;
       padding: 13px 28px;
     }
@@ -206,25 +271,51 @@
       height: 272px;
     }
 
+    .lower-content {
+      max-width: 100%;
+      width: 1700px;
+    }
+
     .l-left-content {
-      width: 755px;
+      max-width: 70%;
+      width: 630px;
       height: 487px;
     }
 
+    .dolphin {
+      padding: 8px;
+      max-width: 100%;
+      width: 590px;
+    }
+
     .l-right-content {
-      width: 293px;
+      max-width: 31%;
+      width: 284px;
       height: 562px;
     }
+
+    .stoked-successd {
+      font-size: 11px;
+      padding: 20px 10px 20px 5px;
+      max-width: 100%;
+      width: 340px;
+    }
+
   }
 
   @media (max-width: 992px) {
     .side-bar {
-      width: 240px;
+      width: 200px;
       max-width: 100%;
     }
 
+    .lower-side {
+      margin-top: 355%;
+      position: absolute;
+    }
+
     .button {
-      width: 200px;
+      width: 175px;
       height: 56px;
       padding: 13px 28px;
     }
@@ -237,31 +328,163 @@
 
     .left-content {
       padding: 25px;
-      width: 460px;
-      max-width: 100%;
+      width: 560px;
+      max-width: 80%;
       height: 272px;
     }
 
     .main-img {
-      width: 580px;
+      width: 880px;
       max-width: 100%;
     }
 
     .right-content {
       padding: 15px;
-      width: 478px;
-      max-width: 100%;
+      width: 578px;
+      max-width: 70%;
       height: 265px;
     }
 
-    .l-left-content {
-      width: 755px;
-      height: 487px;
+    .lower-content {
+      flex-direction: column;
+      max-width: 100%;
+      width: 1700px;
+    }
+
+    .stoke1 {
+      border-top: 1px solid #ddd;
+      /* border-left: 1px solid #ddd; */
     }
 
     .l-right-content {
-      width: 293px;
-      height: 562px;
+      max-width: 100%;
+      width: 400px;
+      height: 392px;
+    }
+
+    .l-left-content {
+      max-width: 100%;
+    }
+
+    .dolphin {
+      font-size: 11px;
+      padding: 8px;
+      max-width: 100%;
+      width: 790px;
+    }
+
+    .l-right-content {
+      width: 100%;
+    }
+
+    .stoked-successd {
+      font-size: 11px;
+      padding: 20px 10px 20px 5px;
+      max-width: 100%;
+      width: 900px;
+      height: 390px;
+    }
+
+
+    .l-right-res-content {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+      margin-bottom: 40px;
+    }
+
+    .stoked-successd-res {
+      background-color: #ffff;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+    }
+
+    .res-img {
+      width: 20px;
+    }
+
+    .btn {
+      width: 200px;
+    }
+
+    @media (max-width: 768px) {
+      .l-left-content {
+        width: 690px;
+        max-width: 100%;
+      }
+
+      .dolphin {
+        width: 690px;
+        max-width: 100%;
+      }
+
+      .l-right-content {
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .upper-content {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .left-content {
+        width: 560px;
+        max-width: 100%;
+      }
+
+      .right-content {
+        padding: 15px;
+        width: 578px;
+        max-width: 100%;
+      }
+
+      .l-left-content {
+        width: 690px;
+        max-width: 100%;
+      }
+
+      .dolphin {
+        width: 690px;
+        max-width: 100%;
+      }
+
+
+      .l-right-content {
+        margin-bottom: 40px;
+      }
+
+      .l-right-res-content {
+        margin-top: 20px;
+        height: 50px;
+        width: 680px;
+        max-width: 100%;
+      }
+
+      .stoked-successd-res {
+        padding: 5px;
+        width: 610px;
+        max-width: 100%;
+      }
+
+      .btn {
+        width: 190px;
+      }
+    }
+
+    @media (max-width: 412px) {
+      .dolphin {
+        width: 710px;
+        max-width: 100%;
+        font-size: 7px;
+      }
+
+      .l-right-content {
+        margin-bottom: 40px;
+      }
     }
   }
 </style>
@@ -279,10 +502,10 @@
       </div>
     </div>
 
-    <div class="row min-vh-90">
+    <div class="row">
       <!-- ---------------side-bar---------------- -->
 
-      <div class="side-bar col-lg-4 col-md-4 col-sm-5  d-none d-md-block">
+      <div class="side-bar col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-5  d-none d-md-block">
 
 
 
@@ -314,8 +537,7 @@
 
       <!-------------------------- content----------------------------- -->
 
-      <div
-        class="col-lg-8 col-md-8 mt-xxl-5 m-xxl-4 m-xl-auto m-lg-auto mt-lg-5 mt-xl-5 m-md-auto mt-md-5 m-sm-auto mt-sm-5 mt-5 ">
+      <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-8 mt-lg-5 m-lg-4 mt-md-5 m-md-4 mt-sm-5 mt-5">
 
         <!-- -------------------upper-content---------------------- -->
 
@@ -444,36 +666,63 @@
             </div>
 
           </div>
-          <div class="l-right-content rounded-1">
-            <div class="recent fw-bold">
+          <div class="l-right-content d-xxl-block d-xl-block d-lg-block d-md-block d-sm-block d-block">
+            <div class="recent fw-bold mb-2">
               Recent activity
             </div>
-            <div class="stoked-successd">
-              <span class="bg-opacity-50"> New </span>
+            <div class="stoked-successd rounded-2 ">
+              <span class="bg-opacity-50 p-3" style="margin-bottom: 12px;"> New </span>
 
-              <div class="stoke1">
+              <div class="stoke1 p-3 d-flex mt-2">
                 <img src="images/explore/svgs/dolphin right.svg" alt="right-dolphin">
-                <span> You have successfully stoked </span>
-                <span class="fw-bolder"> 900 ZCN </span>
-                <div class="button">
-                  <a href="#"> View Details </a>
-                </div>
+                <p class="m-3"> you have successfully staked <span class="fw-bolder"> 900 ZCN
+                  </span></p>
+
+              </div>
+              <div class="activity-btn btn btn-outline-success">
+                <a class="text-decoration-none" style="color: #03C17D;" href="#"> View Details </a>
               </div>
 
-              <div class="stoke2">
+              <div class="stoke2 d-flex p-3">
                 <img src="images/explore/svgs/dolpin brown left.svg" alt="brown-left">
-                <span> Adam Brian sent you </span>
-                <span class="fw-bolder"> 1.22 ZCH </span>
+                <p class="m-3"> <span class="fw-bolder"> Adam Brian </span> sent you <br> <span class="fw-bolder"> 1.22
+                    ZCH
+                  </span></p>
               </div>
 
-              <span class="bg-opacity-50"> New </span>
-              <div class="stoke2">
+              <span class="bg-opacity-50 p-3"> Earlier </span>
+              <div class="stoke2 border-top p-3 d-flex mt-2">
                 <img src="images/explore/svgs/dolpin brown left.svg" alt="brown-left">
-                <span> Adam Brian sent you </span>
-                <span class="fw-bolder"> 1.22 ZCH </span>
+                <p class="m-3"> <span class="fw-bolder"> Adam Brian </span> sent you <br> <span class="fw-bolder"> 1.22
+                    ZCH
+                  </span></p>
               </div>
             </div>
           </div>
+
+          <!-- -------------------------res---------------- -->
+
+          <div class="l-right-res-content d-xxl-none d-xl-none d-lg-none d-sm-none d-none d-md-none">
+            <span class="fw-bold"> Recent activity </span>
+            <div class="stoked-successd-res rounded-2 mt-3">
+              <span class="bg-opacity-50 p-3"> New </span>
+
+              <div class="stoke1 p-3 d-flex mt-1">
+                <img class="res-img" src="images/explore/svgs/dolphin right.svg" alt="right-dolphin">
+                <span class="m-2"> You have successfully staked
+                  900 ZCN </p>
+              </div>
+              <div class="btn btn-outline-success">
+                <a class="text-decoration-none" style="color: #03C17D;" href="#"> View Details </a>
+              </div>
+
+              <div class="stoke2 d-flex p-3 gap-3">
+                <img class="res-img" src="images/explore/svgs/dolpin brown left.svg" alt="brown-left">
+                <span class="m-2"> Adam Brian sent you 1.22 ZCH </span>
+              </div>
+            </div>
+          </div>
+
         </div>
 
 
