@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Home Page Exploration 5 </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f3f5f9;
+  }
+
+  .header-exp {
+    background-color: #ffff;
+    height: 64px;
+    /* border-bottom: 1px solid #f3f5f9; */
+  }
+
+  .header-bolt {
+    width: 74px;
+    height: 34px;
+  }
+
+  .header-logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .side-bar {
+    background-color: #ffff;
+    max-width: 280px;
+    width: 100%;
+    position: relative;
+  }
+
+  .lower-side {
+    margin-top: 155%;
+    position: absolute;
+  }
+
+  .button {
+    width: 216px;
+    height: 56px;
+    padding: 12px 28px;
+    background-image: linear-gradient(to bottom, #97E81C, #03C17D);
+    color: #ffff;
+    text-align: center;
+  }
+
+  .upper-content {
+    max-width: 100%;
+  }
+
+  .left-content {
+    padding: 35px;
+    background-color: #ffff;
+    width: 587px;
+    height: 272px;
+    max-width: 100%;
+  }
+
+  .stock-img {
+    width: 520px;
+    max-width: 100%;
+  }
+
+  .main-img {
+    width: 448px;
+    max-width: 100%;
+  }
+
+  .right-content {
+    padding: 35px;
+    background-color: #ffff;
+    width: 448px;
+    max-width: 100%;
+    height: 272px;
+  }
+
+  .lower-content {
+    max-width: 100%;
+    width: 1650px;
+    padding-bottom: 46px;
+  }
+
+  .l-left-content {
+    max-width: 100%;
+    width: 755px;
+    height: 487px;
+  }
+
+  .recent {
+    background-color: #f3f5f9;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 25px;
+  }
+
+  .dolphin {
+    font-size: 12px;
+    background-color: #ffff;
+    margin-top: 10px;
+    padding: 9px;
+    max-width: 100%;
+    width: 755px;
+  }
+
+  .l-right-content {
+    max-width: 100%;
+    width: 310px;
+    height: 542px;
+  }
+
+  .stoke1 {
+    border-top: 1px solid #ddd;
+  }
+
+  .stoked-successd {
+    background-color: #ffff;
+    font-size: 13px;
+    max-width: 100%;
+    width: 300px;
+    height: 540px;
+    padding: 20px 10px 20px 5px;
+  }
+
+  .activity-btn {
+    margin-left: 65px;
+    outline: #03C17D;
+  }
+
+
+  @media (max-width: 1400px) {
+    .side-bar {
+      width: 240px;
+      max-width: 100%;
+    }
+
+    .lower-side {
+      margin-top: 195%;
+      position: absolute;
+    }
+
+    .button {
+      width: 210px;
+      height: 56px;
+      padding: 13px 28px;
+    }
+
+    .upper-content {
+      max-width: 100%;
+      width: 1600px;
+    }
+
+    .stock-img {
+      width: 580px;
+      max-width: 100%;
+    }
+
+    .left-content {
+      padding: 35px;
+      width: 587px;
+      max-width: 100%;
+      height: 272px;
+    }
+
+    .main-img {
+      width: 580px;
+      max-width: 100%;
+    }
+
+    .right-content {
+      padding: 25px;
+      max-width: 100%;
+      width: 480px;
+      height: 272px;
+    }
+
+    .lower-content {
+      max-width: 100%;
+      width: 1700px;
+      padding-bottom: 40px;
+    }
+
+    .l-left-content {
+      max-width: 71%;
+      width: 750px;
+      height: 487px;
+    }
+
+    .dolphin {
+      padding: 8px;
+      max-width: 100%;
+      width: 750px;
+    }
+
+    .l-right-content {
+      max-width: 35%;
+      width: 310px;
+      height: 562px;
+    }
+
+    .stoked-successd {
+      padding: 20px 10px 20px 5px;
+      max-width: 100%;
+      width: 310px;
+    }
+
+    .activity-btn {
+      margin-left: 65px;
+      outline: #03C17D;
+    }
+  }
+
+  @media (max-width:1200px) {
+    .side-bar {
+      width: 200px;
+      max-width: 100%;
+    }
+
+    .lower-side {
+      margin-top: 220%;
+      position: absolute;
+    }
+
+    .button {
+      width: 175px;
+      height: 56px;
+      padding: 13px 28px;
+    }
+
+
+    .upper-content {
+      max-width: 100%;
+    }
+
+    .stock-img {
+      width: 450px;
+      max-width: 100%;
+    }
+
+    .left-content {
+      padding: 25px;
+      width: 790px;
+      max-width: 100%;
+      height: 272px;
+    }
+
+    .main-img {
+      width: 580px;
+      max-width: 100%;
+    }
+
+    .right-content {
+      padding: 10px;
+      padding-bottom: 2px;
+      max-width: 100%;
+      width: 748px;
+      height: 272px;
+    }
+
+    .lower-content {
+      max-width: 100%;
+      width: 1700px;
+    }
+
+    .l-left-content {
+      max-width: 70%;
+      width: 630px;
+      height: 487px;
+    }
+
+    .dolphin {
+      padding: 8px;
+      max-width: 100%;
+      width: 590px;
+    }
+
+    .l-right-content {
+      max-width: 31%;
+      width: 284px;
+      height: 562px;
+    }
+
+    .stoked-successd {
+      font-size: 11px;
+      padding: 20px 10px 20px 5px;
+      max-width: 100%;
+      width: 340px;
+    }
+
+  }
+
+  @media (max-width: 992px) {
+    .side-bar {
+      width: 200px;
+      max-width: 100%;
+    }
+
+    .lower-side {
+      margin-top: 355%;
+      position: absolute;
+    }
+
+    .button {
+      width: 175px;
+      height: 56px;
+      padding: 13px 28px;
+    }
+
+
+    .stock-img {
+      width: 350px;
+      max-width: 100%;
+    }
+
+    .left-content {
+      padding: 25px;
+      width: 560px;
+      max-width: 80%;
+      height: 272px;
+    }
+
+    .main-img {
+      width: 880px;
+      max-width: 100%;
+    }
+
+    .right-content {
+      padding: 15px;
+      width: 578px;
+      max-width: 70%;
+      height: 265px;
+    }
+
+    .lower-content {
+      flex-direction: column;
+      max-width: 100%;
+      width: 1700px;
+    }
+
+    .stoke1 {
+      border-top: 1px solid #ddd;
+      /* border-left: 1px solid #ddd; */
+    }
+
+    .l-right-content {
+      max-width: 100%;
+      width: 400px;
+      height: 392px;
+    }
+
+    .l-left-content {
+      max-width: 100%;
+    }
+
+    .dolphin {
+      font-size: 11px;
+      padding: 8px;
+      max-width: 100%;
+      width: 790px;
+    }
+
+    .l-right-content {
+      width: 100%;
+    }
+
+    .stoked-successd {
+      font-size: 11px;
+      padding: 20px 10px 20px 5px;
+      max-width: 100%;
+      width: 900px;
+      height: 390px;
+    }
+
+
+    .l-right-res-content {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+      margin-bottom: 40px;
+    }
+
+    .stoked-successd-res {
+      background-color: #ffff;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+    }
+
+    .res-img {
+      width: 20px;
+    }
+
+    .btn {
+      width: 200px;
+    }
+
+    @media (max-width: 768px) {
+      .l-left-content {
+        width: 690px;
+        max-width: 100%;
+      }
+
+      .dolphin {
+        width: 690px;
+        max-width: 100%;
+      }
+
+      .l-right-content {
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .upper-content {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .left-content {
+        width: 560px;
+        max-width: 100%;
+      }
+
+      .right-content {
+        padding: 15px;
+        width: 578px;
+        max-width: 100%;
+      }
+
+      .l-left-content {
+        width: 690px;
+        max-width: 100%;
+      }
+
+      .dolphin {
+        width: 690px;
+        max-width: 100%;
+      }
+
+
+      .l-right-content {
+        margin-bottom: 40px;
+      }
+
+      .l-right-res-content {
+        margin-top: 20px;
+        height: 50px;
+        width: 680px;
+        max-width: 100%;
+      }
+
+      .stoked-successd-res {
+        padding: 5px;
+        width: 610px;
+        max-width: 100%;
+      }
+
+      .btn {
+        width: 190px;
+      }
+    }
+
+    @media (max-width: 412px) {
+      .dolphin {
+        width: 710px;
+        max-width: 100%;
+        font-size: 7px;
+      }
+
+      .l-right-content {
+        margin-bottom: 40px;
+      }
+    }
+  }
+</style>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="header-exp d-flex justify-content-between border-bottom">
+        <img class="header-bolt m-2" src="images/explore/svgs/Bolt Logo.svg" alt="bolt-logo">
+        <div class="header-text mt-3 m-5">
+          <img class="header-logo" src="images/explore/svgs/header-22.svg" alt="profile-picture">
+          <span class="m-2"> John Doe </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- ---------------side-bar---------------- -->
+
+      <div class="side-bar col-xxl-3 col-xl-2 col-lg-3 col-md-4 col-sm-5  d-none d-md-block">
+
+
+
+        <div class="upper-side m-3">
+          <div class="wallet d-flex gap-3 mt-5">
+            <img src="images/explore/svgs/home icon.svg" alt="wallet-home-icon">
+            <span class="fw-bolder"> Wallet </span>
+          </div>
+          <div class="stake d-flex gap-3 mt-5">
+            <img src="images/explore/svgs/stack icon.svg" alt="wallet-home-icon">
+            <span> Stake </span>
+          </div>
+          <div class="Activity d-flex gap-3 mt-5">
+            <img src="images/explore/svgs/bell icon.svg" alt="wallet-home-icon">
+            <span> Activity </span>
+          </div>
+          <div class=" mt-5 border-bottom"></div>
+          <div class="Settings d-flex gap-3 mt-5">
+            <img src="images/explore/svgs/settings.svg" alt="wallet-home-icon">
+            <span> Settings </span>
+          </div>
+        </div>
+        <div class="lower-side d-flex flex-column gap-4">
+          <a href="#" class="button text-decoration-none rounded-3"> Send </a>
+          <a href="#" class="button text-decoration-none rounded-3"> Recieve </a>
+        </div>
+      </div>
+
+
+      <!-------------------------- content----------------------------- -->
+
+      <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-8 mt-lg-5 m-lg-4 mt-md-5 m-md-4 mt-sm-5 mt-5">
+
+        <!-- -------------------upper-content---------------------- -->
+
+
+        <div class="upper-content d-flex gap-4">
+          <div class="left-content rounded-3">
+            <span> Available Balance </span>
+            <div class="h3 mt-2 fw-bold">
+              1000.00 <span class="fs-6 fw-lighter">ZCN</span>
+            </div>
+            <img class="stock-img mt-4" src="images/explore/svgs/stock range.svg" alt="stock range in zcn">
+            <div class="d-flex justify-content-between flex-shrink-0">
+              <span class="fs-6 fw-bold"> Stacked </span>
+              <span class="fs-6 fw-bold"> Available </span>
+            </div>
+            <div class="h6 mt-5">
+              Total Balance <span class="fw-bolder">$1000.00</span>
+            </div>
+          </div>
+
+
+          <div class="right-content rounded-3">
+
+            <img class="main-img" src="images/explore/Group 1160443896.png" alt="stock-range-graph">
+
+          </div>
+        </div>
+
+        <!-- ----------------------lower-content---------------- -->
+        <div class="lower-content mt-5 d-flex  gap-4">
+          <div class="l-left-content rounded-3">
+            <div class="recent d-flex justify-content-between">
+              <span class="fw-bold"> Recent Transections </span>
+              <span class="fw-bold" style="color: #03C17D"> View all </span>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolpin brown left.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin right.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin left maroon.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin right white.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin right blue.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolphin up white.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+            <div class="dolphin rounded-3 d-flex justify-content-between mb-3">
+              <div class="dol-img mt-1">
+                <img src="images/explore/svgs/dolpin brown left.svg" alt="dolphin-left-brown">
+                <span class="fw-bolder p-4 mt-3"> Dolphin 9fvil...xx0dus </span>
+              </div>
+              <span class="opacity-25 mt-2"> a minute ago </span>
+              <span class="opacity-25 mt-2"> Pending </span>
+              <div class="dolhpin-right-text d-flex flex-column mt-1">
+                <span class="fw-bolder"> 1.22 ZCH </span>
+                <span class="fw-lighter text-center"> 8.51 USD </span>
+              </div>
+            </div>
+
+          </div>
+          <div class="l-right-content d-xxl-block d-xl-block d-lg-block d-md-block d-sm-block d-block">
+            <div class="recent fw-bold mb-2">
+              Recent activity
+            </div>
+            <div class="stoked-successd rounded-2 ">
+              <span class="bg-opacity-50 p-3" style="margin-bottom: 12px;"> New </span>
+
+              <div class="stoke1 p-3 d-flex mt-2">
+                <img src="images/explore/svgs/dolphin right.svg" alt="right-dolphin">
+                <p class="m-3"> you have successfully staked <span class="fw-bolder"> 900 ZCN
+                  </span></p>
+
+              </div>
+              <div class="activity-btn btn btn-outline-success">
+                <a class="text-decoration-none" style="color: #03C17D;" href="#"> View Details </a>
+              </div>
+
+              <div class="stoke2 d-flex p-3">
+                <img src="images/explore/svgs/dolpin brown left.svg" alt="brown-left">
+                <p class="m-3"> <span class="fw-bolder"> Adam Brian </span> sent you <br> <span class="fw-bolder"> 1.22
+                    ZCH
+                  </span></p>
+              </div>
+
+              <span class="bg-opacity-50 p-3"> Earlier </span>
+              <div class="stoke2 border-top p-3 d-flex mt-2">
+                <img src="images/explore/svgs/dolpin brown left.svg" alt="brown-left">
+                <p class="m-3"> <span class="fw-bolder"> Adam Brian </span> sent you <br> <span class="fw-bolder"> 1.22
+                    ZCH
+                  </span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------res---------------- -->
+
+          <div class="l-right-res-content d-xxl-none d-xl-none d-lg-none d-sm-none d-none d-md-none">
+            <span class="fw-bold"> Recent activity </span>
+            <div class="stoked-successd-res rounded-2 mt-3">
+              <span class="bg-opacity-50 p-3"> New </span>
+
+              <div class="stoke1 p-3 d-flex mt-1">
+                <img class="res-img" src="images/explore/svgs/dolphin right.svg" alt="right-dolphin">
+                <span class="m-2"> You have successfully staked
+                  900 ZCN </p>
+              </div>
+              <div class="btn btn-outline-success">
+                <a class="text-decoration-none" style="color: #03C17D;" href="#"> View Details </a>
+              </div>
+
+              <div class="stoke2 d-flex p-3 gap-3">
+                <img class="res-img" src="images/explore/svgs/dolpin brown left.svg" alt="brown-left">
+                <span class="m-2"> Adam Brian sent you 1.22 ZCH </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
